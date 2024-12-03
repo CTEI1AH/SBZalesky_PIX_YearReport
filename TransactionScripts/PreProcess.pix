@@ -53,7 +53,7 @@
                           <PropertyValue z:Id="i11">
                             <PropertyName>LaunchArgs</PropertyName>
                             <_dataType>Expression</_dataType>
-                            <_expression>"--start-maximized --hide-crash-restore-bubble"</_expression>
+                            <_expression>"--force-renderer-accessibility=complete --start-maximized --hide-crash-restore-bubble"</_expression>
                             <_screenShotBase64 i:nil="true" />
                             <_value i:nil="true" />
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -1251,7 +1251,7 @@
                     <Childs>
                       <AbstractStep z:Id="i150" i:type="ExecutedStep">
                         <Childs />
-                        <Id>4ce54b83-e637-4049-92df-d7492655157e</Id>
+                        <Id>a3633a4b-74a8-446f-bcce-9c68a84ce911</Id>
                         <Parent z:Ref="i149" />
                         <PropertyValues>
                           <PropertyValue z:Id="i151">
@@ -1289,7 +1289,7 @@
                       </AbstractStep>
                       <AbstractStep z:Id="i154" i:type="ExecutedStep">
                         <Childs />
-                        <Id>ccf0a70e-d52c-44a0-b6b1-63df79712573</Id>
+                        <Id>10285872-eb96-4532-89b0-1868b167c1dc</Id>
                         <Parent z:Ref="i149" />
                         <PropertyValues>
                           <PropertyValue z:Id="i155">
@@ -1578,7 +1578,7 @@
                       </AbstractStep>
                       <AbstractStep z:Id="i188" i:type="ExecutedStep">
                         <Childs />
-                        <Id>8e0a079a-2b2d-4415-90a0-393efde23517</Id>
+                        <Id>15f0109e-2bf5-4d97-9dd9-c153c5c51d88</Id>
                         <Parent z:Ref="i149" />
                         <PropertyValues>
                           <PropertyValue z:Id="i189">
@@ -1971,13 +1971,13 @@
                       </AbstractStep>
                       <AbstractStep z:Id="i234" i:type="ExecutedStep">
                         <Childs />
-                        <Id>b478aae0-49e3-473f-90ea-0ee967e3ec57</Id>
+                        <Id>37f44f9b-b14c-4091-9925-a83df399b3c0</Id>
                         <Parent z:Ref="i149" />
                         <PropertyValues>
                           <PropertyValue z:Id="i235">
                             <PropertyName>Keys</PropertyName>
                             <_dataType>Expression</_dataType>
-                            <_expression>dict_secureData["Credential__passwd"]</_expression>
+                            <_expression>dict_secureData["Credential_passwd"]</_expression>
                             <_screenShotBase64 i:nil="true" />
                             <_value i:nil="true" />
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -2346,7 +2346,7 @@
                       </AbstractStep>
                       <AbstractStep z:Id="i278" i:type="ExecutedStep">
                         <Childs />
-                        <Id>bc439bdf-f509-45bd-8585-fd6f4b613975</Id>
+                        <Id>a11c4dd3-3377-4050-8d85-68d5ecead76a</Id>
                         <Parent z:Ref="i149" />
                         <PropertyValues>
                           <PropertyValue z:Id="i279">

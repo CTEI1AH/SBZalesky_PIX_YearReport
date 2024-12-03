@@ -67,6 +67,10 @@
       <IsMain>false</IsMain>
       <Path>Performer\System1_UploadYearlyReport.pix</Path>
     </ProjectFileItem>
+    <ProjectFileItem z:Id="i18">
+      <IsMain>false</IsMain>
+      <Path>Новый скрипт.pix</Path>
+    </ProjectFileItem>
   </Files>
   <MasterUploadId i:nil="true" />
   <Name>ReFramework_2.0</Name>
