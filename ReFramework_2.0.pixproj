@@ -49,27 +49,27 @@
     </ProjectFileItem>
     <ProjectFileItem z:Id="i13">
       <IsMain>false</IsMain>
-      <Path>Performer\System1_DownloadMothlyReports.pix</Path>
+      <Path>Новый скрипт.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i14">
       <IsMain>false</IsMain>
-      <Path>Performer\System1_GetVenderInformation.pix</Path>
+      <Path>System1Scripts\System1_DownloadMothlyReports.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i15">
       <IsMain>false</IsMain>
-      <Path>Performer\System1_MergeReportsToYear.pix</Path>
+      <Path>System1Scripts\System1_GetVenderInformation.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i16">
       <IsMain>false</IsMain>
-      <Path>Performer\System1_UpdateStatus.pix</Path>
+      <Path>System1Scripts\System1_MergeReportsToYear.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i17">
       <IsMain>false</IsMain>
-      <Path>Performer\System1_UploadYearlyReport.pix</Path>
+      <Path>System1Scripts\System1_UpdateStatus.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i18">
       <IsMain>false</IsMain>
-      <Path>Новый скрипт.pix</Path>
+      <Path>System1Scripts\System1_UploadYearlyReport.pix</Path>
     </ProjectFileItem>
   </Files>
   <MasterUploadId i:nil="true" />

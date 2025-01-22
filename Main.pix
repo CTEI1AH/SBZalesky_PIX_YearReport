@@ -739,66 +739,6 @@ STATE 5: Завершение</Text>
                             <Text></Text>
                             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
                           </AbstractStep>
-                          <AbstractStep z:Id="i82" i:type="ExecutedStep">
-                            <Childs />
-                            <Id>7292521d-cff9-4c1b-96ec-799f5607a2d9</Id>
-                            <Parent z:Ref="i54" />
-                            <PropertyValues>
-                              <PropertyValue z:Id="i83">
-                                <PropertyName>Value</PropertyName>
-                                <_dataType>Expression</_dataType>
-                                <_expression>str_param1</_expression>
-                                <_screenShotBase64 i:nil="true" />
-                                <_value i:nil="true" />
-                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                              </PropertyValue>
-                              <PropertyValue z:Id="i84">
-                                <PropertyName>To</PropertyName>
-                                <_dataType>Expression</_dataType>
-                                <_expression>dict_config["Param1"]</_expression>
-                                <_screenShotBase64 i:nil="true" />
-                                <_value i:nil="true" />
-                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                              </PropertyValue>
-                            </PropertyValues>
-                            <SelectedOptionId i:nil="true" />
-                            <AutoCloseMode>None</AutoCloseMode>
-                            <EnableStatus>true</EnableStatus>
-                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-                            <RetryCount>-1</RetryCount>
-                            <Text i:nil="true" />
-                            <_activityFullName>BR.Core.Base.Assign</_activityFullName>
-                          </AbstractStep>
-                          <AbstractStep z:Id="i85" i:type="ExecutedStep">
-                            <Childs />
-                            <Id>d25b7f13-9cc5-4c0e-93c6-63a7d1145a51</Id>
-                            <Parent z:Ref="i54" />
-                            <PropertyValues>
-                              <PropertyValue z:Id="i86">
-                                <PropertyName>Value</PropertyName>
-                                <_dataType>Expression</_dataType>
-                                <_expression>str_param2</_expression>
-                                <_screenShotBase64 i:nil="true" />
-                                <_value i:nil="true" />
-                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                              </PropertyValue>
-                              <PropertyValue z:Id="i87">
-                                <PropertyName>To</PropertyName>
-                                <_dataType>Expression</_dataType>
-                                <_expression>dict_config["Param2"]</_expression>
-                                <_screenShotBase64 i:nil="true" />
-                                <_value i:nil="true" />
-                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                              </PropertyValue>
-                            </PropertyValues>
-                            <SelectedOptionId i:nil="true" />
-                            <AutoCloseMode>None</AutoCloseMode>
-                            <EnableStatus>true</EnableStatus>
-                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-                            <RetryCount>-1</RetryCount>
-                            <Text i:nil="true" />
-                            <_activityFullName>BR.Core.Base.Assign</_activityFullName>
-                          </AbstractStep>
                         </Childs>
                         <Id>c40d3d6b-d0ba-4e25-aee5-e6b78ff5053a</Id>
                         <Parent z:Ref="i53" />
@@ -811,14 +751,14 @@ STATE 5: Завершение</Text>
                         <Text></Text>
                         <_activityFullName>BR.Core.Base.Try</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i88" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i82" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i89" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i83" i:type="ExecutedStep">
                             <Childs />
                             <Id>929ae933-a266-43d9-8658-13223e036f63</Id>
-                            <Parent z:Ref="i88" />
+                            <Parent z:Ref="i82" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i90">
+                              <PropertyValue z:Id="i84">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>errorSource</_expression>
@@ -826,7 +766,7 @@ STATE 5: Завершение</Text>
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i91">
+                              <PropertyValue z:Id="i85">
                                 <PropertyName>To</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>exc_main.Source</_expression>
@@ -847,7 +787,7 @@ STATE 5: Завершение</Text>
                         <Id>d276c578-cf3d-4e48-9d6c-6caa0b51a511</Id>
                         <Parent z:Ref="i53" />
                         <PropertyValues>
-                          <PropertyValue z:Id="i92">
+                          <PropertyValue z:Id="i86">
                             <PropertyName>Message</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>errorMessage</_expression>
@@ -855,7 +795,7 @@ STATE 5: Завершение</Text>
                             <_value i:nil="true" />
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                           </PropertyValue>
-                          <PropertyValue z:Id="i93">
+                          <PropertyValue z:Id="i87">
                             <PropertyName>Source</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>errorSource</_expression>
@@ -863,7 +803,7 @@ STATE 5: Завершение</Text>
                             <_value i:nil="true" />
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                           </PropertyValue>
-                          <PropertyValue z:Id="i94">
+                          <PropertyValue z:Id="i88">
                             <PropertyName>Exception</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>exc_main</_expression>
@@ -880,7 +820,7 @@ STATE 5: Завершение</Text>
                         <Text></Text>
                         <_activityFullName>BR.Core.Base.Catch</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i95" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i89" i:type="ExecutedStep">
                         <Childs />
                         <Id>34aa2d90-fb94-4d33-9e11-87a5349b6cf7</Id>
                         <Parent z:Ref="i53" />
@@ -905,16 +845,16 @@ STATE 5: Завершение</Text>
                     <Text>STATE BODY</Text>
                     <_activityFullName>BR.Core.Base.TryCatch</_activityFullName>
                   </AbstractStep>
-                  <AbstractStep z:Id="i96" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i90" i:type="ExecutedStep">
                     <Childs>
-                      <AbstractStep z:Id="i97" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i91" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i98" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i92" i:type="ExecutedStep">
                             <Childs />
                             <Id>637cf3bb-183e-448c-bc93-6c511e2c8082</Id>
-                            <Parent z:Ref="i97" />
+                            <Parent z:Ref="i91" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i99">
+                              <PropertyValue z:Id="i93">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>5</_expression>
@@ -922,7 +862,7 @@ STATE 5: Завершение</Text>
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i100">
+                              <PropertyValue z:Id="i94">
                                 <PropertyName>To</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>int_state</_expression>
@@ -941,7 +881,7 @@ STATE 5: Завершение</Text>
                           </AbstractStep>
                         </Childs>
                         <Id>73172a56-cc05-4202-af83-74e84b2855d5</Id>
-                        <Parent z:Ref="i96" />
+                        <Parent z:Ref="i90" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <AutoCloseMode>None</AutoCloseMode>
@@ -951,14 +891,14 @@ STATE 5: Завершение</Text>
                         <Text></Text>
                         <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i101" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i95" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i102" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i96" i:type="ExecutedStep">
                             <Childs />
                             <Id>5bcd5d30-7ae1-40a4-adf5-e96f8cf7cf22</Id>
-                            <Parent z:Ref="i101" />
+                            <Parent z:Ref="i95" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i103">
+                              <PropertyValue z:Id="i97">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>2</_expression>
@@ -966,7 +906,7 @@ STATE 5: Завершение</Text>
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i104">
+                              <PropertyValue z:Id="i98">
                                 <PropertyName>To</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>int_state</_expression>
@@ -985,7 +925,7 @@ STATE 5: Завершение</Text>
                           </AbstractStep>
                         </Childs>
                         <Id>221a68fd-9530-4f61-ac1f-51f9ae31b928</Id>
-                        <Parent z:Ref="i96" />
+                        <Parent z:Ref="i90" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <AutoCloseMode>None</AutoCloseMode>
@@ -999,7 +939,7 @@ STATE 5: Завершение</Text>
                     <Id>237baca2-b645-48da-b87d-b6ab1ae4e17e</Id>
                     <Parent z:Ref="i51" />
                     <PropertyValues>
-                      <PropertyValue z:Id="i105">
+                      <PropertyValue z:Id="i99">
                         <PropertyName>Condition</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>exc_main!=null</_expression>
@@ -1028,31 +968,31 @@ STATE 5: Завершение</Text>
                 <Text>STATE 1: Инициализация</Text>
                 <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i106" i:type="ExecutedStep">
+              <AbstractStep z:Id="i100" i:type="ExecutedStep">
                 <Childs>
-                  <AbstractStep z:Id="i107" i:type="CommentStep">
+                  <AbstractStep z:Id="i101" i:type="CommentStep">
                     <Childs />
                     <Id>4f16d8b8-639e-4c74-bcd4-b0a1e1184afc</Id>
-                    <Parent z:Ref="i106" />
+                    <Parent z:Ref="i100" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
                     <IsCollapsed>false</IsCollapsed>
                     <Text>Выполнение общих действий</Text>
                   </AbstractStep>
-                  <AbstractStep z:Id="i108" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i102" i:type="ExecutedStep">
                     <Childs>
-                      <AbstractStep z:Id="i109" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i103" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i110" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i104" i:type="ExecutedStep">
                             <Childs>
-                              <AbstractStep z:Id="i111" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i105" i:type="ExecutedStep">
                                 <Childs>
-                                  <AbstractStep z:Id="i112" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i106" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>9ea03b28-9b24-41c3-885c-0c30adfdb32f</Id>
-                                    <Parent z:Ref="i111" />
+                                    <Parent z:Ref="i105" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i113">
+                                      <PropertyValue z:Id="i107">
                                         <PropertyName>Value</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>$"Достигнуто максимальное количество последовательных исключений.\nКоличество последовательных исключений: {int_consecutiveExceptionCounter}"</_expression>
@@ -1060,7 +1000,7 @@ STATE 5: Завершение</Text>
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i114">
+                                      <PropertyValue z:Id="i108">
                                         <PropertyName>To</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>dict_config["MessageBody"]</_expression>
@@ -1077,12 +1017,12 @@ STATE 5: Завершение</Text>
                                     <Text>Тело сообщения - Ошибка</Text>
                                     <_activityFullName>BR.Core.Base.Assign</_activityFullName>
                                   </AbstractStep>
-                                  <AbstractStep z:Id="i115" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i109" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>789be427-1254-49ed-b134-84a64f302869</Id>
-                                    <Parent z:Ref="i111" />
+                                    <Parent z:Ref="i105" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i116">
+                                      <PropertyValue z:Id="i110">
                                         <PropertyName>FilePath</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>@"FrameworkScripts\Notification.pix"</_expression>
@@ -1090,38 +1030,38 @@ STATE 5: Завершение</Text>
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i117">
+                                      <PropertyValue z:Id="i111">
                                         <PropertyName>Parameters</PropertyName>
                                         <_dataType>Value</_dataType>
                                         <_expression i:nil="true" />
                                         <_screenShotBase64 i:nil="true" />
                                         <_value xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d21p1:ArrayOfArgumentItem">
-                                          <d21p1:ArgumentItem z:Id="i118">
+                                          <d21p1:ArgumentItem z:Id="i112">
                                             <d21p1:ArgumentName>dict_config</d21p1:ArgumentName>
                                             <d21p1:Expression>dict_config</d21p1:Expression>
                                             <d21p1:Type>Dictionary&lt;System.String, System.Object&gt;</d21p1:Type>
                                           </d21p1:ArgumentItem>
-                                          <d21p1:ArgumentItem z:Id="i119">
+                                          <d21p1:ArgumentItem z:Id="i113">
                                             <d21p1:ArgumentName>int_notifyType</d21p1:ArgumentName>
                                             <d21p1:Expression>3</d21p1:Expression>
                                             <d21p1:Type>System.Int32</d21p1:Type>
                                           </d21p1:ArgumentItem>
-                                          <d21p1:ArgumentItem z:Id="i120">
+                                          <d21p1:ArgumentItem z:Id="i114">
                                             <d21p1:ArgumentName>list_attaches</d21p1:ArgumentName>
                                             <d21p1:Expression>new List&lt;string&gt;{}</d21p1:Expression>
                                             <d21p1:Type>List&lt;System.String&gt;</d21p1:Type>
                                           </d21p1:ArgumentItem>
-                                          <d21p1:ArgumentItem z:Id="i121">
+                                          <d21p1:ArgumentItem z:Id="i115">
                                             <d21p1:ArgumentName>sec_mailPassword</d21p1:ArgumentName>
                                             <d21p1:Expression>dict_secureData["MailCred_passwd"]</d21p1:Expression>
                                             <d21p1:Type>System.Security.SecureString</d21p1:Type>
                                           </d21p1:ArgumentItem>
-                                          <d21p1:ArgumentItem z:Id="i122">
+                                          <d21p1:ArgumentItem z:Id="i116">
                                             <d21p1:ArgumentName>bool_takeScreenshot</d21p1:ArgumentName>
                                             <d21p1:Expression>false</d21p1:Expression>
                                             <d21p1:Type>System.Boolean</d21p1:Type>
                                           </d21p1:ArgumentItem>
-                                          <d21p1:ArgumentItem z:Id="i123">
+                                          <d21p1:ArgumentItem z:Id="i117">
                                             <d21p1:ArgumentName>dict_sendParameters</d21p1:ArgumentName>
                                             <d21p1:Expression>new Dictionary&lt;string,string&gt;{}</d21p1:Expression>
                                             <d21p1:Type>System.Collections.IDictionary</d21p1:Type>
@@ -1138,12 +1078,12 @@ STATE 5: Завершение</Text>
                                     <Text>Выполнить скрипт отправки письма, int_notifyType - 3</Text>
                                     <_activityFullName>BR.Core.Base.ExecuteScript</_activityFullName>
                                   </AbstractStep>
-                                  <AbstractStep z:Id="i124" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i118" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>44939b49-37b4-4459-a8e8-5eeab3010c11</Id>
-                                    <Parent z:Ref="i111" />
+                                    <Parent z:Ref="i105" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i125">
+                                      <PropertyValue z:Id="i119">
                                         <PropertyName>Text</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>$"Достигнуто максимальное количество последовательных исключений. Количество последовательных исключений: {int_consecutiveExceptionCounter}"</_expression>
@@ -1151,7 +1091,7 @@ STATE 5: Завершение</Text>
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i126">
+                                      <PropertyValue z:Id="i120">
                                         <PropertyName>Exception</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>exc_main</_expression>
@@ -1170,7 +1110,7 @@ STATE 5: Завершение</Text>
                                   </AbstractStep>
                                 </Childs>
                                 <Id>98c8380a-99ce-4c50-9a2e-10fa0ee671af</Id>
-                                <Parent z:Ref="i110" />
+                                <Parent z:Ref="i104" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
                                 <AutoCloseMode>None</AutoCloseMode>
@@ -1180,10 +1120,10 @@ STATE 5: Завершение</Text>
                                 <Text></Text>
                                 <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                               </AbstractStep>
-                              <AbstractStep z:Id="i127" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i121" i:type="ExecutedStep">
                                 <Childs />
                                 <Id>6ce9e856-fa56-4898-b347-9696173985ac</Id>
-                                <Parent z:Ref="i110" />
+                                <Parent z:Ref="i104" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
                                 <AutoCloseMode>None</AutoCloseMode>
@@ -1195,9 +1135,9 @@ STATE 5: Завершение</Text>
                               </AbstractStep>
                             </Childs>
                             <Id>750e96bb-323d-43c8-a489-f8ed28b6d2ec</Id>
-                            <Parent z:Ref="i109" />
+                            <Parent z:Ref="i103" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i128">
+                              <PropertyValue z:Id="i122">
                                 <PropertyName>Condition</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>int_maxConsecutiveExceptions  &gt; 0 &amp;&amp; int_consecutiveExceptionCounter &gt;= int_maxConsecutiveExceptions </_expression>
@@ -1215,16 +1155,16 @@ STATE 5: Завершение</Text>
 Если int_maxConsecutiveExceptions равно 0, то допускается любое количество последовательных исключений.</Text>
                             <_activityFullName>BR.Core.Base.If</_activityFullName>
                           </AbstractStep>
-                          <AbstractStep z:Id="i129" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i123" i:type="ExecutedStep">
                             <Childs>
-                              <AbstractStep z:Id="i130" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i124" i:type="ExecutedStep">
                                 <Childs>
-                                  <AbstractStep z:Id="i131" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i125" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>6e937e72-0c53-4fbd-83cb-2554aa60f996</Id>
-                                    <Parent z:Ref="i130" />
+                                    <Parent z:Ref="i124" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i132">
+                                      <PropertyValue z:Id="i126">
                                         <PropertyName>QueueName</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>str_queueName</_expression>
@@ -1232,7 +1172,7 @@ STATE 5: Завершение</Text>
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i133">
+                                      <PropertyValue z:Id="i127">
                                         <PropertyName>MaxItems</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression></_expression>
@@ -1240,7 +1180,7 @@ STATE 5: Завершение</Text>
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i134">
+                                      <PropertyValue z:Id="i128">
                                         <PropertyName>StartDate</PropertyName>
                                         <_dataType>Value</_dataType>
                                         <_expression i:nil="true" />
@@ -1248,7 +1188,7 @@ STATE 5: Завершение</Text>
                                         <_value xmlns:d21p1="http://www.w3.org/2001/XMLSchema" i:type="d21p1:dateTime">0001-01-01T00:00:00</_value>
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i135">
+                                      <PropertyValue z:Id="i129">
                                         <PropertyName>EndDate</PropertyName>
                                         <_dataType>Value</_dataType>
                                         <_expression i:nil="true" />
@@ -1256,7 +1196,7 @@ STATE 5: Завершение</Text>
                                         <_value xmlns:d21p1="http://www.w3.org/2001/XMLSchema" i:type="d21p1:dateTime">0001-01-01T00:00:00</_value>
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i136">
+                                      <PropertyValue z:Id="i130">
                                         <PropertyName>Result</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>list_queueItemData</_expression>
@@ -1273,25 +1213,25 @@ STATE 5: Завершение</Text>
                                     <Text></Text>
                                     <_activityFullName>Activities.Queues.GetElementsByFilter</_activityFullName>
                                   </AbstractStep>
-                                  <AbstractStep z:Id="i137" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i131" i:type="ExecutedStep">
                                     <Childs>
-                                      <AbstractStep z:Id="i138" i:type="ExecutedStep">
+                                      <AbstractStep z:Id="i132" i:type="ExecutedStep">
                                         <Childs>
-                                          <AbstractStep z:Id="i139" i:type="CommentStep">
+                                          <AbstractStep z:Id="i133" i:type="CommentStep">
                                             <Childs />
                                             <Id>804ba242-fa5b-4a4b-9270-def8e9825f84</Id>
-                                            <Parent z:Ref="i138" />
+                                            <Parent z:Ref="i132" />
                                             <PropertyValues />
                                             <SelectedOptionId i:nil="true" />
                                             <IsCollapsed>false</IsCollapsed>
                                             <Text>Если в очереди нет новых транзакций</Text>
                                           </AbstractStep>
-                                          <AbstractStep z:Id="i140" i:type="ExecutedStep">
+                                          <AbstractStep z:Id="i134" i:type="ExecutedStep">
                                             <Childs />
                                             <Id>77abc425-9373-4343-acea-27652b462b3d</Id>
-                                            <Parent z:Ref="i138" />
+                                            <Parent z:Ref="i132" />
                                             <PropertyValues>
-                                              <PropertyValue z:Id="i141">
+                                              <PropertyValue z:Id="i135">
                                                 <PropertyName>Exception</PropertyName>
                                                 <_dataType>Expression</_dataType>
                                                 <_expression>new BusinessRuleException("Отсутствуют новые транзакции для обработки")</_expression>
@@ -1310,7 +1250,7 @@ STATE 5: Завершение</Text>
                                           </AbstractStep>
                                         </Childs>
                                         <Id>268d1634-68fb-44b6-a381-650fc7caa700</Id>
-                                        <Parent z:Ref="i137" />
+                                        <Parent z:Ref="i131" />
                                         <PropertyValues />
                                         <SelectedOptionId i:nil="true" />
                                         <AutoCloseMode>None</AutoCloseMode>
@@ -1320,10 +1260,10 @@ STATE 5: Завершение</Text>
                                         <Text></Text>
                                         <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                                       </AbstractStep>
-                                      <AbstractStep z:Id="i142" i:type="ExecutedStep">
+                                      <AbstractStep z:Id="i136" i:type="ExecutedStep">
                                         <Childs />
                                         <Id>c2896023-4023-4cf4-bd51-4023d4aa8c56</Id>
-                                        <Parent z:Ref="i137" />
+                                        <Parent z:Ref="i131" />
                                         <PropertyValues />
                                         <SelectedOptionId i:nil="true" />
                                         <AutoCloseMode>None</AutoCloseMode>
@@ -1335,9 +1275,9 @@ STATE 5: Завершение</Text>
                                       </AbstractStep>
                                     </Childs>
                                     <Id>3121e4e8-4ac2-4975-8e44-232d08181371</Id>
-                                    <Parent z:Ref="i130" />
+                                    <Parent z:Ref="i124" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i143">
+                                      <PropertyValue z:Id="i137">
                                         <PropertyName>Condition</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>list_queueItemData.Count() == 0 || 
@@ -1357,7 +1297,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                   </AbstractStep>
                                 </Childs>
                                 <Id>5ff92c32-d22b-426f-8f47-4625af6c4afb</Id>
-                                <Parent z:Ref="i129" />
+                                <Parent z:Ref="i123" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
                                 <AutoCloseMode>None</AutoCloseMode>
@@ -1367,14 +1307,14 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <Text></Text>
                                 <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                               </AbstractStep>
-                              <AbstractStep z:Id="i144" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i138" i:type="ExecutedStep">
                                 <Childs>
-                                  <AbstractStep z:Id="i145" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i139" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>089717d5-9d38-459e-8e01-9feb5f5f9c3f</Id>
-                                    <Parent z:Ref="i144" />
+                                    <Parent z:Ref="i138" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i146">
+                                      <PropertyValue z:Id="i140">
                                         <PropertyName>Text</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>$"Ошибка во время тестирования: {exc_main.Message}\n{exc_main.Source}"</_expression>
@@ -1393,9 +1333,9 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                   </AbstractStep>
                                 </Childs>
                                 <Id>0a4d5eb0-0ff5-4339-830f-c3971d6310ab</Id>
-                                <Parent z:Ref="i129" />
+                                <Parent z:Ref="i123" />
                                 <PropertyValues>
-                                  <PropertyValue z:Id="i147">
+                                  <PropertyValue z:Id="i141">
                                     <PropertyName>Condition</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>bool_usePerformer == false &amp;&amp; bool_useDispatcher == false &amp;&amp; exc_main != null</_expression>
@@ -1412,10 +1352,10 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <Text></Text>
                                 <_activityFullName>BR.Core.Base.ElseIf</_activityFullName>
                               </AbstractStep>
-                              <AbstractStep z:Id="i148" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i142" i:type="ExecutedStep">
                                 <Childs />
                                 <Id>b32c646b-58b8-4422-a5c9-631581b6e19b</Id>
-                                <Parent z:Ref="i129" />
+                                <Parent z:Ref="i123" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
                                 <AutoCloseMode>None</AutoCloseMode>
@@ -1427,9 +1367,9 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                               </AbstractStep>
                             </Childs>
                             <Id>2b749892-e1ee-4b63-b099-c2dc2237017d</Id>
-                            <Parent z:Ref="i109" />
+                            <Parent z:Ref="i103" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i149">
+                              <PropertyValue z:Id="i143">
                                 <PropertyName>Condition</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>bool_usePerformer==true</_expression>
@@ -1446,12 +1386,12 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                             <Text>Если процесс запускается для обработки очереди - проверка наличия транзакций для обработки</Text>
                             <_activityFullName>BR.Core.Base.If</_activityFullName>
                           </AbstractStep>
-                          <AbstractStep z:Id="i150" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i144" i:type="ExecutedStep">
                             <Childs />
                             <Id>40f13a39-ee9d-4f16-a729-abb8eae8bff6</Id>
-                            <Parent z:Ref="i109" />
+                            <Parent z:Ref="i103" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i151">
+                              <PropertyValue z:Id="i145">
                                 <PropertyName>FilePath</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>@"TransactionScripts\PreProcess.pix"</_expression>
@@ -1459,28 +1399,28 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i152">
+                              <PropertyValue z:Id="i146">
                                 <PropertyName>Parameters</PropertyName>
                                 <_dataType>Value</_dataType>
                                 <_expression i:nil="true" />
                                 <_screenShotBase64 i:nil="true" />
                                 <_value xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d17p1:ArrayOfArgumentItem">
-                                  <d17p1:ArgumentItem z:Id="i153">
+                                  <d17p1:ArgumentItem z:Id="i147">
                                     <d17p1:ArgumentName>dict_config</d17p1:ArgumentName>
                                     <d17p1:Expression>dict_config</d17p1:Expression>
                                     <d17p1:Type>Dictionary&lt;System.String, System.Object&gt;</d17p1:Type>
                                   </d17p1:ArgumentItem>
-                                  <d17p1:ArgumentItem z:Id="i154">
+                                  <d17p1:ArgumentItem z:Id="i148">
                                     <d17p1:ArgumentName>dict_secureData</d17p1:ArgumentName>
                                     <d17p1:Expression>dict_secureData</d17p1:Expression>
                                     <d17p1:Type>Dictionary&lt;System.String, System.Security.SecureString&gt;</d17p1:Type>
                                   </d17p1:ArgumentItem>
-                                  <d17p1:ArgumentItem z:Id="i155">
+                                  <d17p1:ArgumentItem z:Id="i149">
                                     <d17p1:ArgumentName>bool_useDispatcher</d17p1:ArgumentName>
                                     <d17p1:Expression>bool_useDispatcher</d17p1:Expression>
                                     <d17p1:Type>System.Boolean</d17p1:Type>
                                   </d17p1:ArgumentItem>
-                                  <d17p1:ArgumentItem z:Id="i156">
+                                  <d17p1:ArgumentItem z:Id="i150">
                                     <d17p1:ArgumentName>dict_paths</d17p1:ArgumentName>
                                     <d17p1:Expression>dict_paths</d17p1:Expression>
                                     <d17p1:Type>Dictionary&lt;System.String, System.String&gt;</d17p1:Type>
@@ -1499,7 +1439,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                           </AbstractStep>
                         </Childs>
                         <Id>590b7cf6-402d-493c-b953-c916edb14500</Id>
-                        <Parent z:Ref="i108" />
+                        <Parent z:Ref="i102" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <AutoCloseMode>None</AutoCloseMode>
@@ -1509,14 +1449,14 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                         <Text></Text>
                         <_activityFullName>BR.Core.Base.Try</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i157" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i151" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i158" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i152" i:type="ExecutedStep">
                             <Childs />
                             <Id>e614a408-ffcd-47a7-84f4-6abeb61e1e6c</Id>
-                            <Parent z:Ref="i157" />
+                            <Parent z:Ref="i151" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i159">
+                              <PropertyValue z:Id="i153">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>errorSource</_expression>
@@ -1524,7 +1464,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i160">
+                              <PropertyValue z:Id="i154">
                                 <PropertyName>To</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>exc_main.Source</_expression>
@@ -1541,12 +1481,12 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                             <Text>Источник ошибки</Text>
                             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
                           </AbstractStep>
-                          <AbstractStep z:Id="i161" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i155" i:type="ExecutedStep">
                             <Childs />
                             <Id>f1799805-c127-475b-80dc-4465925658f9</Id>
-                            <Parent z:Ref="i157" />
+                            <Parent z:Ref="i151" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i162">
+                              <PropertyValue z:Id="i156">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>null</_expression>
@@ -1554,7 +1494,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i163">
+                              <PropertyValue z:Id="i157">
                                 <PropertyName>To</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>str_transactionID</_expression>
@@ -1573,9 +1513,9 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                           </AbstractStep>
                         </Childs>
                         <Id>d60a057c-a5fb-44aa-b703-384ab2f4c681</Id>
-                        <Parent z:Ref="i108" />
+                        <Parent z:Ref="i102" />
                         <PropertyValues>
-                          <PropertyValue z:Id="i164">
+                          <PropertyValue z:Id="i158">
                             <PropertyName>Message</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>errorMessage</_expression>
@@ -1583,7 +1523,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                             <_value i:nil="true" />
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                           </PropertyValue>
-                          <PropertyValue z:Id="i165">
+                          <PropertyValue z:Id="i159">
                             <PropertyName>Source</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>errorSource</_expression>
@@ -1591,7 +1531,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                             <_value i:nil="true" />
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                           </PropertyValue>
-                          <PropertyValue z:Id="i166">
+                          <PropertyValue z:Id="i160">
                             <PropertyName>Exception</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>exc_main</_expression>
@@ -1608,10 +1548,10 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                         <Text></Text>
                         <_activityFullName>BR.Core.Base.Catch</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i167" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i161" i:type="ExecutedStep">
                         <Childs />
                         <Id>d51f600a-6254-48bd-871d-7004563fb0db</Id>
-                        <Parent z:Ref="i108" />
+                        <Parent z:Ref="i102" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <AutoCloseMode>None</AutoCloseMode>
@@ -1623,7 +1563,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                       </AbstractStep>
                     </Childs>
                     <Id>a87a7534-439e-4a8e-b964-837d5f534c0e</Id>
-                    <Parent z:Ref="i106" />
+                    <Parent z:Ref="i100" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
                     <AutoCloseMode>None</AutoCloseMode>
@@ -1633,16 +1573,16 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                     <Text>STATE BODY</Text>
                     <_activityFullName>BR.Core.Base.TryCatch</_activityFullName>
                   </AbstractStep>
-                  <AbstractStep z:Id="i168" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i162" i:type="ExecutedStep">
                     <Childs>
-                      <AbstractStep z:Id="i169" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i163" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i170" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i164" i:type="ExecutedStep">
                             <Childs />
                             <Id>7a9c59f5-f7cd-488c-845a-96969470b10d</Id>
-                            <Parent z:Ref="i169" />
+                            <Parent z:Ref="i163" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i171">
+                              <PropertyValue z:Id="i165">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>3</_expression>
@@ -1650,7 +1590,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i172">
+                              <PropertyValue z:Id="i166">
                                 <PropertyName>To</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>int_state</_expression>
@@ -1669,7 +1609,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                           </AbstractStep>
                         </Childs>
                         <Id>7481d890-9c42-46af-ae2e-da5790436ba0</Id>
-                        <Parent z:Ref="i168" />
+                        <Parent z:Ref="i162" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <AutoCloseMode>None</AutoCloseMode>
@@ -1679,14 +1619,14 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                         <Text>Истина - Performer и есть транзакции для обработки?</Text>
                         <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i173" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i167" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i174" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i168" i:type="ExecutedStep">
                             <Childs />
                             <Id>d7925d68-7feb-4ab5-9077-f21fa4d29c19</Id>
-                            <Parent z:Ref="i173" />
+                            <Parent z:Ref="i167" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i175">
+                              <PropertyValue z:Id="i169">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>4</_expression>
@@ -1694,7 +1634,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i176">
+                              <PropertyValue z:Id="i170">
                                 <PropertyName>To</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>int_state</_expression>
@@ -1713,9 +1653,9 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                           </AbstractStep>
                         </Childs>
                         <Id>7db930a2-d63a-4a59-9798-957729fe3ae3</Id>
-                        <Parent z:Ref="i168" />
+                        <Parent z:Ref="i162" />
                         <PropertyValues>
-                          <PropertyValue z:Id="i177">
+                          <PropertyValue z:Id="i171">
                             <PropertyName>Condition</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>bool_usePerformer==false &amp;&amp; exc_main==null</_expression>
@@ -1732,14 +1672,14 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                         <Text>Если выполнен запуск в режиме Dispatcher</Text>
                         <_activityFullName>BR.Core.Base.ElseIf</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i178" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i172" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i179" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i173" i:type="ExecutedStep">
                             <Childs />
                             <Id>27b7c89b-e595-43ef-b4bb-de489c09de1e</Id>
-                            <Parent z:Ref="i178" />
+                            <Parent z:Ref="i172" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i180">
+                              <PropertyValue z:Id="i174">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>5</_expression>
@@ -1747,7 +1687,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i181">
+                              <PropertyValue z:Id="i175">
                                 <PropertyName>To</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>int_state</_expression>
@@ -1766,7 +1706,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                           </AbstractStep>
                         </Childs>
                         <Id>f58f8746-0a93-4fa2-b8bd-c86072437f0b</Id>
-                        <Parent z:Ref="i168" />
+                        <Parent z:Ref="i162" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <AutoCloseMode>None</AutoCloseMode>
@@ -1778,9 +1718,9 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                       </AbstractStep>
                     </Childs>
                     <Id>a7b8e8d0-327f-4178-ba58-9a48787a5ecd</Id>
-                    <Parent z:Ref="i106" />
+                    <Parent z:Ref="i100" />
                     <PropertyValues>
-                      <PropertyValue z:Id="i182">
+                      <PropertyValue z:Id="i176">
                         <PropertyName>Condition</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>bool_usePerformer==true &amp;&amp; str_transactionID != null</_expression>
@@ -1801,7 +1741,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                 <Id>c2d6a895-a9c7-4e29-9141-2c28b6a8ac7b</Id>
                 <Parent z:Ref="i50" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i183">
+                  <PropertyValue z:Id="i177">
                     <PropertyName>Condition</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>int_state == 2</_expression>
@@ -1818,27 +1758,27 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                 <Text>STATE 2: Общие действия для всех транзакций</Text>
                 <_activityFullName>BR.Core.Base.ElseIf</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i184" i:type="ExecutedStep">
+              <AbstractStep z:Id="i178" i:type="ExecutedStep">
                 <Childs>
-                  <AbstractStep z:Id="i185" i:type="CommentStep">
+                  <AbstractStep z:Id="i179" i:type="CommentStep">
                     <Childs />
                     <Id>a07b680c-6001-4f0a-b541-95a3cc639190</Id>
-                    <Parent z:Ref="i184" />
+                    <Parent z:Ref="i178" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
                     <IsCollapsed>false</IsCollapsed>
                     <Text>Получение следующей транзакции для обработки</Text>
                   </AbstractStep>
-                  <AbstractStep z:Id="i186" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i180" i:type="ExecutedStep">
                     <Childs>
-                      <AbstractStep z:Id="i187" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i181" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i188" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i182" i:type="ExecutedStep">
                             <Childs />
                             <Id>2ba1abc9-5968-4a16-88ac-2541d6cbd015</Id>
-                            <Parent z:Ref="i187" />
+                            <Parent z:Ref="i181" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i189">
+                              <PropertyValue z:Id="i183">
                                 <PropertyName>ShouldStop</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>bool_shouldStop</_expression>
@@ -1855,16 +1795,16 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                             <Text></Text>
                             <_activityFullName>Activities.Master.Tasks.CheckSoftStopFlag</_activityFullName>
                           </AbstractStep>
-                          <AbstractStep z:Id="i190" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i184" i:type="ExecutedStep">
                             <Childs>
-                              <AbstractStep z:Id="i191" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i185" i:type="ExecutedStep">
                                 <Childs>
-                                  <AbstractStep z:Id="i192" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i186" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>3526b8cf-2b12-4d39-99d2-3f235f7b586d</Id>
-                                    <Parent z:Ref="i191" />
+                                    <Parent z:Ref="i185" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i193">
+                                      <PropertyValue z:Id="i187">
                                         <PropertyName>FilePath</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>@"TransactionScripts\GetTransaction.pix"</_expression>
@@ -1872,33 +1812,33 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i194">
+                                      <PropertyValue z:Id="i188">
                                         <PropertyName>Parameters</PropertyName>
                                         <_dataType>Value</_dataType>
                                         <_expression i:nil="true" />
                                         <_screenShotBase64 i:nil="true" />
                                         <_value xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d21p1:ArrayOfArgumentItem">
-                                          <d21p1:ArgumentItem z:Id="i195">
+                                          <d21p1:ArgumentItem z:Id="i189">
                                             <d21p1:ArgumentName>str_transactionID</d21p1:ArgumentName>
                                             <d21p1:Expression>str_transactionID</d21p1:Expression>
                                             <d21p1:Type>System.String</d21p1:Type>
                                           </d21p1:ArgumentItem>
-                                          <d21p1:ArgumentItem z:Id="i196">
+                                          <d21p1:ArgumentItem z:Id="i190">
                                             <d21p1:ArgumentName>int_transCount</d21p1:ArgumentName>
                                             <d21p1:Expression>int_transCount</d21p1:Expression>
                                             <d21p1:Type>System.Int32</d21p1:Type>
                                           </d21p1:ArgumentItem>
-                                          <d21p1:ArgumentItem z:Id="i197">
+                                          <d21p1:ArgumentItem z:Id="i191">
                                             <d21p1:ArgumentName>str_transactionItem</d21p1:ArgumentName>
                                             <d21p1:Expression>str_transactionItem</d21p1:Expression>
                                             <d21p1:Type>System.String</d21p1:Type>
                                           </d21p1:ArgumentItem>
-                                          <d21p1:ArgumentItem z:Id="i198">
+                                          <d21p1:ArgumentItem z:Id="i192">
                                             <d21p1:ArgumentName>str_queueName</d21p1:ArgumentName>
                                             <d21p1:Expression>str_queueName</d21p1:Expression>
                                             <d21p1:Type>System.String</d21p1:Type>
                                           </d21p1:ArgumentItem>
-                                          <d21p1:ArgumentItem z:Id="i199">
+                                          <d21p1:ArgumentItem z:Id="i193">
                                             <d21p1:ArgumentName>qid_transactionData</d21p1:ArgumentName>
                                             <d21p1:Expression>qid_transactionData</d21p1:Expression>
                                             <d21p1:Type>BR.Master.Queues.QueueItemData</d21p1:Type>
@@ -1917,7 +1857,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                   </AbstractStep>
                                 </Childs>
                                 <Id>8c72b267-4826-4bd2-a514-5f0fe7134395</Id>
-                                <Parent z:Ref="i190" />
+                                <Parent z:Ref="i184" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
                                 <AutoCloseMode>None</AutoCloseMode>
@@ -1927,14 +1867,14 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <Text></Text>
                                 <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                               </AbstractStep>
-                              <AbstractStep z:Id="i200" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i194" i:type="ExecutedStep">
                                 <Childs>
-                                  <AbstractStep z:Id="i201" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i195" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>8995151b-8d5d-4019-87f9-427e5da047f9</Id>
-                                    <Parent z:Ref="i200" />
+                                    <Parent z:Ref="i194" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i202">
+                                      <PropertyValue z:Id="i196">
                                         <PropertyName>Value</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>null</_expression>
@@ -1942,7 +1882,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i203">
+                                      <PropertyValue z:Id="i197">
                                         <PropertyName>To</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>str_transactionID</_expression>
@@ -1961,7 +1901,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                   </AbstractStep>
                                 </Childs>
                                 <Id>1c8c553c-2330-4fae-ad0c-832d4eb6cf7a</Id>
-                                <Parent z:Ref="i190" />
+                                <Parent z:Ref="i184" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
                                 <AutoCloseMode>None</AutoCloseMode>
@@ -1973,9 +1913,9 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                               </AbstractStep>
                             </Childs>
                             <Id>d69e5110-6787-4eda-9052-b04fca105580</Id>
-                            <Parent z:Ref="i187" />
+                            <Parent z:Ref="i181" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i204">
+                              <PropertyValue z:Id="i198">
                                 <PropertyName>Condition</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>bool_shouldStop==false</_expression>
@@ -1994,7 +1934,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                           </AbstractStep>
                         </Childs>
                         <Id>7fb24e37-30e5-4c03-83c0-a16af436b67d</Id>
-                        <Parent z:Ref="i186" />
+                        <Parent z:Ref="i180" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <AutoCloseMode>None</AutoCloseMode>
@@ -2004,14 +1944,14 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                         <Text></Text>
                         <_activityFullName>BR.Core.Base.Try</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i205" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i199" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i206" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i200" i:type="ExecutedStep">
                             <Childs />
                             <Id>19b36696-9ddb-467d-89c8-6cab80da160a</Id>
-                            <Parent z:Ref="i205" />
+                            <Parent z:Ref="i199" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i207">
+                              <PropertyValue z:Id="i201">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>errorSource</_expression>
@@ -2019,7 +1959,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i208">
+                              <PropertyValue z:Id="i202">
                                 <PropertyName>To</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>exc_main.Source</_expression>
@@ -2036,12 +1976,12 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                             <Text>Источник ошибки</Text>
                             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
                           </AbstractStep>
-                          <AbstractStep z:Id="i209" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i203" i:type="ExecutedStep">
                             <Childs />
                             <Id>38da3bf3-8126-41cb-b1ba-07dc92037aa9</Id>
-                            <Parent z:Ref="i205" />
+                            <Parent z:Ref="i199" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i210">
+                              <PropertyValue z:Id="i204">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>null</_expression>
@@ -2049,7 +1989,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i211">
+                              <PropertyValue z:Id="i205">
                                 <PropertyName>To</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>str_transactionID</_expression>
@@ -2068,9 +2008,9 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                           </AbstractStep>
                         </Childs>
                         <Id>7c548c26-5555-4c19-8b2b-fb0d13fc68d8</Id>
-                        <Parent z:Ref="i186" />
+                        <Parent z:Ref="i180" />
                         <PropertyValues>
-                          <PropertyValue z:Id="i212">
+                          <PropertyValue z:Id="i206">
                             <PropertyName>Message</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>errorMessage</_expression>
@@ -2078,7 +2018,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                             <_value i:nil="true" />
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                           </PropertyValue>
-                          <PropertyValue z:Id="i213">
+                          <PropertyValue z:Id="i207">
                             <PropertyName>Source</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>errorSource</_expression>
@@ -2086,7 +2026,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                             <_value i:nil="true" />
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                           </PropertyValue>
-                          <PropertyValue z:Id="i214">
+                          <PropertyValue z:Id="i208">
                             <PropertyName>Exception</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>exc_main</_expression>
@@ -2103,10 +2043,10 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                         <Text></Text>
                         <_activityFullName>BR.Core.Base.Catch</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i215" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i209" i:type="ExecutedStep">
                         <Childs />
                         <Id>a891a94c-f931-4a09-94cd-19ce48f61bc9</Id>
-                        <Parent z:Ref="i186" />
+                        <Parent z:Ref="i180" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <AutoCloseMode>None</AutoCloseMode>
@@ -2118,7 +2058,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                       </AbstractStep>
                     </Childs>
                     <Id>4d7193c6-674f-4577-ac7b-cec005f4a084</Id>
-                    <Parent z:Ref="i184" />
+                    <Parent z:Ref="i178" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
                     <AutoCloseMode>None</AutoCloseMode>
@@ -2128,16 +2068,16 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                     <Text>STATE BODY</Text>
                     <_activityFullName>BR.Core.Base.TryCatch</_activityFullName>
                   </AbstractStep>
-                  <AbstractStep z:Id="i216" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i210" i:type="ExecutedStep">
                     <Childs>
-                      <AbstractStep z:Id="i217" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i211" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i218" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i212" i:type="ExecutedStep">
                             <Childs />
                             <Id>4d659791-f7eb-43a6-a9d3-277f2cfa161a</Id>
-                            <Parent z:Ref="i217" />
+                            <Parent z:Ref="i211" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i219">
+                              <PropertyValue z:Id="i213">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>4</_expression>
@@ -2145,7 +2085,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i220">
+                              <PropertyValue z:Id="i214">
                                 <PropertyName>To</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>int_state</_expression>
@@ -2164,7 +2104,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                           </AbstractStep>
                         </Childs>
                         <Id>9fc58e99-fd33-459b-b33f-9cd4d23185a0</Id>
-                        <Parent z:Ref="i216" />
+                        <Parent z:Ref="i210" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <AutoCloseMode>None</AutoCloseMode>
@@ -2174,14 +2114,14 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                         <Text></Text>
                         <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i221" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i215" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i222" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i216" i:type="ExecutedStep">
                             <Childs />
                             <Id>2c21cbca-fb45-4281-8e0f-9f6027d87165</Id>
-                            <Parent z:Ref="i221" />
+                            <Parent z:Ref="i215" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i223">
+                              <PropertyValue z:Id="i217">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>5</_expression>
@@ -2189,7 +2129,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i224">
+                              <PropertyValue z:Id="i218">
                                 <PropertyName>To</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>int_state</_expression>
@@ -2208,7 +2148,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                           </AbstractStep>
                         </Childs>
                         <Id>d9f08e0b-7740-4815-8b4d-d428d4ff8276</Id>
-                        <Parent z:Ref="i216" />
+                        <Parent z:Ref="i210" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <AutoCloseMode>None</AutoCloseMode>
@@ -2220,9 +2160,9 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                       </AbstractStep>
                     </Childs>
                     <Id>1f53d7fa-a244-4089-b1d4-5011c290ba5a</Id>
-                    <Parent z:Ref="i184" />
+                    <Parent z:Ref="i178" />
                     <PropertyValues>
-                      <PropertyValue z:Id="i225">
+                      <PropertyValue z:Id="i219">
                         <PropertyName>Condition</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>str_transactionID!=null</_expression>
@@ -2243,7 +2183,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                 <Id>b385e441-61ee-4442-840f-399ab14ad797</Id>
                 <Parent z:Ref="i50" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i226">
+                  <PropertyValue z:Id="i220">
                     <PropertyName>Condition</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>int_state == 3</_expression>
@@ -2260,27 +2200,27 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                 <Text>STATE 3: Получение данных транзакции</Text>
                 <_activityFullName>BR.Core.Base.ElseIf</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i227" i:type="ExecutedStep">
+              <AbstractStep z:Id="i221" i:type="ExecutedStep">
                 <Childs>
-                  <AbstractStep z:Id="i228" i:type="CommentStep">
+                  <AbstractStep z:Id="i222" i:type="CommentStep">
                     <Childs />
                     <Id>971728d2-b7a7-4553-a5e2-70e3d32583c7</Id>
-                    <Parent z:Ref="i227" />
+                    <Parent z:Ref="i221" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
                     <IsCollapsed>false</IsCollapsed>
                     <Text>Вызов процесса обработки/создания транзакции</Text>
                   </AbstractStep>
-                  <AbstractStep z:Id="i229" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i223" i:type="ExecutedStep">
                     <Childs>
-                      <AbstractStep z:Id="i230" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i224" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i231" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i225" i:type="ExecutedStep">
                             <Childs />
                             <Id>8d377558-bf8c-45e0-9ba1-1e965dc910da</Id>
-                            <Parent z:Ref="i230" />
+                            <Parent z:Ref="i224" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i232">
+                              <PropertyValue z:Id="i226">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>null</_expression>
@@ -2288,7 +2228,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i233">
+                              <PropertyValue z:Id="i227">
                                 <PropertyName>To</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>exc_main</_expression>
@@ -2305,26 +2245,26 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                             <Text>Обнуление переменной для хранения ошибки</Text>
                             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
                           </AbstractStep>
-                          <AbstractStep z:Id="i234" i:type="CommentStep">
+                          <AbstractStep z:Id="i228" i:type="CommentStep">
                             <Childs />
                             <Id>27a597be-cd40-44ef-846c-2beae14c0ef0</Id>
-                            <Parent z:Ref="i230" />
+                            <Parent z:Ref="i224" />
                             <PropertyValues />
                             <SelectedOptionId i:nil="true" />
                             <IsCollapsed>false</IsCollapsed>
                             <Text>1. Если запуск направлен на обработку элементов очереди - Вызов Process.pix
 2. Если запуск произошел на создание транзакций очереди - Вызов CreateTransactions.pix</Text>
                           </AbstractStep>
-                          <AbstractStep z:Id="i235" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i229" i:type="ExecutedStep">
                             <Childs>
-                              <AbstractStep z:Id="i236" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i230" i:type="ExecutedStep">
                                 <Childs>
-                                  <AbstractStep z:Id="i237" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i231" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>108e6044-ad3c-40b5-a03e-f502fc1592ec</Id>
-                                    <Parent z:Ref="i236" />
+                                    <Parent z:Ref="i230" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i238">
+                                      <PropertyValue z:Id="i232">
                                         <PropertyName>Text</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>$"LogStep: Старт обработки транзакции: {str_transactionID}"</_expression>
@@ -2341,12 +2281,12 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                     <Text>LogStep - Старт обработки транзакции</Text>
                                     <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
                                   </AbstractStep>
-                                  <AbstractStep z:Id="i239" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i233" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>ee77f21f-132c-4993-834f-7ba001856006</Id>
-                                    <Parent z:Ref="i236" />
+                                    <Parent z:Ref="i230" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i240">
+                                      <PropertyValue z:Id="i234">
                                         <PropertyName>FilePath</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>@"TransactionScripts\Process.pix"</_expression>
@@ -2354,38 +2294,38 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i241">
+                                      <PropertyValue z:Id="i235">
                                         <PropertyName>Parameters</PropertyName>
                                         <_dataType>Value</_dataType>
                                         <_expression i:nil="true" />
                                         <_screenShotBase64 i:nil="true" />
                                         <_value xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d21p1:ArrayOfArgumentItem">
-                                          <d21p1:ArgumentItem z:Id="i242">
+                                          <d21p1:ArgumentItem z:Id="i236">
                                             <d21p1:ArgumentName>dict_config</d21p1:ArgumentName>
                                             <d21p1:Expression>dict_config</d21p1:Expression>
                                             <d21p1:Type>Dictionary&lt;System.String, System.Object&gt;</d21p1:Type>
                                           </d21p1:ArgumentItem>
-                                          <d21p1:ArgumentItem z:Id="i243">
+                                          <d21p1:ArgumentItem z:Id="i237">
                                             <d21p1:ArgumentName>dict_paths</d21p1:ArgumentName>
                                             <d21p1:Expression>dict_paths</d21p1:Expression>
                                             <d21p1:Type>Dictionary&lt;System.String, System.String&gt;</d21p1:Type>
                                           </d21p1:ArgumentItem>
-                                          <d21p1:ArgumentItem z:Id="i244">
+                                          <d21p1:ArgumentItem z:Id="i238">
                                             <d21p1:ArgumentName>dict_secureData</d21p1:ArgumentName>
                                             <d21p1:Expression>dict_secureData</d21p1:Expression>
                                             <d21p1:Type>Dictionary&lt;System.String, System.Security.SecureString&gt;</d21p1:Type>
                                           </d21p1:ArgumentItem>
-                                          <d21p1:ArgumentItem z:Id="i245">
+                                          <d21p1:ArgumentItem z:Id="i239">
                                             <d21p1:ArgumentName>str_transactionID</d21p1:ArgumentName>
                                             <d21p1:Expression>str_transactionID</d21p1:Expression>
                                             <d21p1:Type>System.String</d21p1:Type>
                                           </d21p1:ArgumentItem>
-                                          <d21p1:ArgumentItem z:Id="i246">
+                                          <d21p1:ArgumentItem z:Id="i240">
                                             <d21p1:ArgumentName>str_transactionItem</d21p1:ArgumentName>
                                             <d21p1:Expression>str_transactionItem</d21p1:Expression>
                                             <d21p1:Type>System.String</d21p1:Type>
                                           </d21p1:ArgumentItem>
-                                          <d21p1:ArgumentItem z:Id="i247">
+                                          <d21p1:ArgumentItem z:Id="i241">
                                             <d21p1:ArgumentName>qid_transactionData</d21p1:ArgumentName>
                                             <d21p1:Expression>qid_transactionData</d21p1:Expression>
                                             <d21p1:Type>BR.Master.Queues.QueueItemData</d21p1:Type>
@@ -2402,12 +2342,12 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                     <Text>Выполнить скрипт обработки транзакции</Text>
                                     <_activityFullName>BR.Core.Base.ExecuteScript</_activityFullName>
                                   </AbstractStep>
-                                  <AbstractStep z:Id="i248" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i242" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>a03658e6-4033-47c7-9153-3851cf9e0f90</Id>
-                                    <Parent z:Ref="i236" />
+                                    <Parent z:Ref="i230" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i249">
+                                      <PropertyValue z:Id="i243">
                                         <PropertyName>Text</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>$"LogStep: Транзакция обработана: {str_transactionID}"</_expression>
@@ -2424,12 +2364,12 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                     <Text>LogStep - Транзакция обработана</Text>
                                     <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
                                   </AbstractStep>
-                                  <AbstractStep z:Id="i250" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i244" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>0f80cfa5-f568-4046-8b5d-5acf36859792</Id>
-                                    <Parent z:Ref="i236" />
+                                    <Parent z:Ref="i230" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i251">
+                                      <PropertyValue z:Id="i245">
                                         <PropertyName>ID</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>str_transactionID</_expression>
@@ -2448,7 +2388,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                   </AbstractStep>
                                 </Childs>
                                 <Id>27139bfc-9127-4719-89d9-64eaa9f187a6</Id>
-                                <Parent z:Ref="i235" />
+                                <Parent z:Ref="i229" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
                                 <AutoCloseMode>None</AutoCloseMode>
@@ -2458,14 +2398,14 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <Text></Text>
                                 <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                               </AbstractStep>
-                              <AbstractStep z:Id="i252" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i246" i:type="ExecutedStep">
                                 <Childs>
-                                  <AbstractStep z:Id="i253" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i247" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>900c8b9d-318e-49d8-8f57-a9dc1c974e8e</Id>
-                                    <Parent z:Ref="i252" />
+                                    <Parent z:Ref="i246" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i254">
+                                      <PropertyValue z:Id="i248">
                                         <PropertyName>FilePath</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>@"TransactionScripts\CreateTransactions.pix"</_expression>
@@ -2473,38 +2413,38 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i255">
+                                      <PropertyValue z:Id="i249">
                                         <PropertyName>Parameters</PropertyName>
                                         <_dataType>Value</_dataType>
                                         <_expression i:nil="true" />
                                         <_screenShotBase64 i:nil="true" />
                                         <_value xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d21p1:ArrayOfArgumentItem">
-                                          <d21p1:ArgumentItem z:Id="i256">
+                                          <d21p1:ArgumentItem z:Id="i250">
                                             <d21p1:ArgumentName>dict_config</d21p1:ArgumentName>
                                             <d21p1:Expression>dict_config</d21p1:Expression>
                                             <d21p1:Type>Dictionary&lt;System.String, System.Object&gt;</d21p1:Type>
                                           </d21p1:ArgumentItem>
-                                          <d21p1:ArgumentItem z:Id="i257">
+                                          <d21p1:ArgumentItem z:Id="i251">
                                             <d21p1:ArgumentName>dict_secureData</d21p1:ArgumentName>
                                             <d21p1:Expression>dict_secureData</d21p1:Expression>
                                             <d21p1:Type>Dictionary&lt;System.String, System.Security.SecureString&gt;</d21p1:Type>
                                           </d21p1:ArgumentItem>
-                                          <d21p1:ArgumentItem z:Id="i258">
+                                          <d21p1:ArgumentItem z:Id="i252">
                                             <d21p1:ArgumentName>dict_paths</d21p1:ArgumentName>
                                             <d21p1:Expression>dict_paths</d21p1:Expression>
                                             <d21p1:Type>Dictionary&lt;System.String, System.String&gt;</d21p1:Type>
                                           </d21p1:ArgumentItem>
-                                          <d21p1:ArgumentItem z:Id="i259">
+                                          <d21p1:ArgumentItem z:Id="i253">
                                             <d21p1:ArgumentName>str_queueName</d21p1:ArgumentName>
                                             <d21p1:Expression>str_queueName</d21p1:Expression>
                                             <d21p1:Type>System.String</d21p1:Type>
                                           </d21p1:ArgumentItem>
-                                          <d21p1:ArgumentItem z:Id="i260">
+                                          <d21p1:ArgumentItem z:Id="i254">
                                             <d21p1:ArgumentName>bool_useDispatcher</d21p1:ArgumentName>
                                             <d21p1:Expression>bool_useDispatcher</d21p1:Expression>
                                             <d21p1:Type>System.Boolean</d21p1:Type>
                                           </d21p1:ArgumentItem>
-                                          <d21p1:ArgumentItem z:Id="i261">
+                                          <d21p1:ArgumentItem z:Id="i255">
                                             <d21p1:ArgumentName>qid_transactionData</d21p1:ArgumentName>
                                             <d21p1:Expression>qid_transactionData</d21p1:Expression>
                                             <d21p1:Type>BR.Master.Queues.QueueItemData</d21p1:Type>
@@ -2523,7 +2463,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                   </AbstractStep>
                                 </Childs>
                                 <Id>78d9dfd6-5d96-401f-8f7e-a5b5b3d30da0</Id>
-                                <Parent z:Ref="i235" />
+                                <Parent z:Ref="i229" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
                                 <AutoCloseMode>None</AutoCloseMode>
@@ -2535,9 +2475,9 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                               </AbstractStep>
                             </Childs>
                             <Id>65e7db68-ea0b-48a2-b498-ecc99fccc8e7</Id>
-                            <Parent z:Ref="i230" />
+                            <Parent z:Ref="i224" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i262">
+                              <PropertyValue z:Id="i256">
                                 <PropertyName>Condition</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>bool_usePerformer==true</_expression>
@@ -2556,7 +2496,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                           </AbstractStep>
                         </Childs>
                         <Id>822fb930-aae0-46a0-8af8-b35749113c70</Id>
-                        <Parent z:Ref="i229" />
+                        <Parent z:Ref="i223" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <AutoCloseMode>None</AutoCloseMode>
@@ -2566,14 +2506,14 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                         <Text></Text>
                         <_activityFullName>BR.Core.Base.Try</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i263" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i257" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i264" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i258" i:type="ExecutedStep">
                             <Childs />
                             <Id>8879594b-bf3e-4d4f-aec2-39260f552119</Id>
-                            <Parent z:Ref="i263" />
+                            <Parent z:Ref="i257" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i265">
+                              <PropertyValue z:Id="i259">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>errorSource</_expression>
@@ -2581,7 +2521,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i266">
+                              <PropertyValue z:Id="i260">
                                 <PropertyName>To</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>exc_main.Source</_expression>
@@ -2598,20 +2538,20 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                             <Text>Источник ошибки</Text>
                             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
                           </AbstractStep>
-                          <AbstractStep z:Id="i267" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i261" i:type="ExecutedStep">
                             <Childs>
-                              <AbstractStep z:Id="i268" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i262" i:type="ExecutedStep">
                                 <Childs>
-                                  <AbstractStep z:Id="i269" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i263" i:type="ExecutedStep">
                                     <Childs>
-                                      <AbstractStep z:Id="i270" i:type="ExecutedStep">
+                                      <AbstractStep z:Id="i264" i:type="ExecutedStep">
                                         <Childs>
-                                          <AbstractStep z:Id="i271" i:type="ExecutedStep">
+                                          <AbstractStep z:Id="i265" i:type="ExecutedStep">
                                             <Childs />
                                             <Id>222ed448-574b-4334-ab99-9f788aa8f651</Id>
-                                            <Parent z:Ref="i270" />
+                                            <Parent z:Ref="i264" />
                                             <PropertyValues>
-                                              <PropertyValue z:Id="i272">
+                                              <PropertyValue z:Id="i266">
                                                 <PropertyName>Value</PropertyName>
                                                 <_dataType>Expression</_dataType>
                                                 <_expression>true</_expression>
@@ -2619,7 +2559,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                                 <_value i:nil="true" />
                                                 <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                               </PropertyValue>
-                                              <PropertyValue z:Id="i273">
+                                              <PropertyValue z:Id="i267">
                                                 <PropertyName>To</PropertyName>
                                                 <_dataType>Expression</_dataType>
                                                 <_expression>bool_transactionError</_expression>
@@ -2636,12 +2576,12 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                             <Text>Одна из транзакций обработана с ошибкой</Text>
                                             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
                                           </AbstractStep>
-                                          <AbstractStep z:Id="i274" i:type="ExecutedStep">
+                                          <AbstractStep z:Id="i268" i:type="ExecutedStep">
                                             <Childs />
                                             <Id>0ff5c2d4-adae-49af-a87b-5bbd809543b6</Id>
-                                            <Parent z:Ref="i270" />
+                                            <Parent z:Ref="i264" />
                                             <PropertyValues>
-                                              <PropertyValue z:Id="i275">
+                                              <PropertyValue z:Id="i269">
                                                 <PropertyName>ID</PropertyName>
                                                 <_dataType>Expression</_dataType>
                                                 <_expression>str_transactionID</_expression>
@@ -2649,7 +2589,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                                 <_value i:nil="true" />
                                                 <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                               </PropertyValue>
-                                              <PropertyValue z:Id="i276">
+                                              <PropertyValue z:Id="i270">
                                                 <PropertyName>Status</PropertyName>
                                                 <_dataType>Value</_dataType>
                                                 <_expression i:nil="true" />
@@ -2657,7 +2597,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                                 <_value xmlns:d25p1="http://www.w3.org/2001/XMLSchema" i:type="d25p1:boolean">false</_value>
                                                 <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                               </PropertyValue>
-                                              <PropertyValue z:Id="i277">
+                                              <PropertyValue z:Id="i271">
                                                 <PropertyName>ErrorComment</PropertyName>
                                                 <_dataType>Expression</_dataType>
                                                 <_expression>$"{errorMessage}"</_expression>
@@ -2665,7 +2605,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                                 <_value i:nil="true" />
                                                 <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                               </PropertyValue>
-                                              <PropertyValue z:Id="i278">
+                                              <PropertyValue z:Id="i272">
                                                 <PropertyName>QueueItemErrorType</PropertyName>
                                                 <_dataType>Value</_dataType>
                                                 <_expression i:nil="true" />
@@ -2682,12 +2622,12 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                             <Text>Проставление статуса Failed (Business) элементу очереди</Text>
                                             <_activityFullName>Activities.Queues.ConfirmElement</_activityFullName>
                                           </AbstractStep>
-                                          <AbstractStep z:Id="i279" i:type="ExecutedStep">
+                                          <AbstractStep z:Id="i273" i:type="ExecutedStep">
                                             <Childs />
                                             <Id>54174008-f7e8-4636-ab37-871e4f3e330e</Id>
-                                            <Parent z:Ref="i270" />
+                                            <Parent z:Ref="i264" />
                                             <PropertyValues>
-                                              <PropertyValue z:Id="i280">
+                                              <PropertyValue z:Id="i274">
                                                 <PropertyName>Value</PropertyName>
                                                 <_dataType>Expression</_dataType>
                                                 <_expression>null</_expression>
@@ -2695,7 +2635,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                                 <_value i:nil="true" />
                                                 <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                               </PropertyValue>
-                                              <PropertyValue z:Id="i281">
+                                              <PropertyValue z:Id="i275">
                                                 <PropertyName>To</PropertyName>
                                                 <_dataType>Expression</_dataType>
                                                 <_expression>exc_main</_expression>
@@ -2714,7 +2654,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                           </AbstractStep>
                                         </Childs>
                                         <Id>ce5a40b5-7c94-4986-8cb6-da8a09cf237e</Id>
-                                        <Parent z:Ref="i269" />
+                                        <Parent z:Ref="i263" />
                                         <PropertyValues />
                                         <SelectedOptionId i:nil="true" />
                                         <AutoCloseMode>None</AutoCloseMode>
@@ -2724,14 +2664,14 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                         <Text></Text>
                                         <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                                       </AbstractStep>
-                                      <AbstractStep z:Id="i282" i:type="ExecutedStep">
+                                      <AbstractStep z:Id="i276" i:type="ExecutedStep">
                                         <Childs>
-                                          <AbstractStep z:Id="i283" i:type="ExecutedStep">
+                                          <AbstractStep z:Id="i277" i:type="ExecutedStep">
                                             <Childs />
                                             <Id>d67b8977-ad79-49a5-bd8d-98a320b7fdbc</Id>
-                                            <Parent z:Ref="i282" />
+                                            <Parent z:Ref="i276" />
                                             <PropertyValues>
-                                              <PropertyValue z:Id="i284">
+                                              <PropertyValue z:Id="i278">
                                                 <PropertyName>Value</PropertyName>
                                                 <_dataType>Expression</_dataType>
                                                 <_expression>true</_expression>
@@ -2739,7 +2679,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                                 <_value i:nil="true" />
                                                 <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                               </PropertyValue>
-                                              <PropertyValue z:Id="i285">
+                                              <PropertyValue z:Id="i279">
                                                 <PropertyName>To</PropertyName>
                                                 <_dataType>Expression</_dataType>
                                                 <_expression>bool_transactionError</_expression>
@@ -2756,12 +2696,12 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                             <Text>Одна из транзакций обработана с ошибкой</Text>
                                             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
                                           </AbstractStep>
-                                          <AbstractStep z:Id="i286" i:type="ExecutedStep">
+                                          <AbstractStep z:Id="i280" i:type="ExecutedStep">
                                             <Childs />
                                             <Id>cb984fb9-1715-48a6-a8ef-b9619721cacd</Id>
-                                            <Parent z:Ref="i282" />
+                                            <Parent z:Ref="i276" />
                                             <PropertyValues>
-                                              <PropertyValue z:Id="i287">
+                                              <PropertyValue z:Id="i281">
                                                 <PropertyName>ID</PropertyName>
                                                 <_dataType>Expression</_dataType>
                                                 <_expression>str_transactionID</_expression>
@@ -2769,7 +2709,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                                 <_value i:nil="true" />
                                                 <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                               </PropertyValue>
-                                              <PropertyValue z:Id="i288">
+                                              <PropertyValue z:Id="i282">
                                                 <PropertyName>Status</PropertyName>
                                                 <_dataType>Value</_dataType>
                                                 <_expression i:nil="true" />
@@ -2777,7 +2717,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                                 <_value xmlns:d25p1="http://www.w3.org/2001/XMLSchema" i:type="d25p1:boolean">false</_value>
                                                 <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                               </PropertyValue>
-                                              <PropertyValue z:Id="i289">
+                                              <PropertyValue z:Id="i283">
                                                 <PropertyName>ErrorComment</PropertyName>
                                                 <_dataType>Expression</_dataType>
                                                 <_expression>$"{errorMessage}"</_expression>
@@ -2796,7 +2736,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                           </AbstractStep>
                                         </Childs>
                                         <Id>d5f812a2-d771-4b0b-bc2a-f7b2a74d62ce</Id>
-                                        <Parent z:Ref="i269" />
+                                        <Parent z:Ref="i263" />
                                         <PropertyValues />
                                         <SelectedOptionId i:nil="true" />
                                         <AutoCloseMode>None</AutoCloseMode>
@@ -2808,9 +2748,9 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                       </AbstractStep>
                                     </Childs>
                                     <Id>30c5ddb1-f60d-4e3b-b722-01fbc836d6bf</Id>
-                                    <Parent z:Ref="i268" />
+                                    <Parent z:Ref="i262" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i290">
+                                      <PropertyValue z:Id="i284">
                                         <PropertyName>Condition</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>exc_main.GetType() == new BusinessRuleException().GetType()</_expression>
@@ -2829,7 +2769,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                   </AbstractStep>
                                 </Childs>
                                 <Id>be69b8d4-a2e9-44e1-b734-f18e8729c26d</Id>
-                                <Parent z:Ref="i267" />
+                                <Parent z:Ref="i261" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
                                 <AutoCloseMode>None</AutoCloseMode>
@@ -2839,10 +2779,10 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <Text></Text>
                                 <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                               </AbstractStep>
-                              <AbstractStep z:Id="i291" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i285" i:type="ExecutedStep">
                                 <Childs />
                                 <Id>79b06360-93b0-490d-a0e7-3d28407135fc</Id>
-                                <Parent z:Ref="i267" />
+                                <Parent z:Ref="i261" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
                                 <AutoCloseMode>None</AutoCloseMode>
@@ -2854,9 +2794,9 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                               </AbstractStep>
                             </Childs>
                             <Id>0550b979-1737-4a65-8e3c-6d4b5cea5168</Id>
-                            <Parent z:Ref="i263" />
+                            <Parent z:Ref="i257" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i292">
+                              <PropertyValue z:Id="i286">
                                 <PropertyName>Condition</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>bool_usePerformer==true</_expression>
@@ -2875,9 +2815,9 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                           </AbstractStep>
                         </Childs>
                         <Id>75f84995-e8f6-4ff1-a6e6-f571b59e3d34</Id>
-                        <Parent z:Ref="i229" />
+                        <Parent z:Ref="i223" />
                         <PropertyValues>
-                          <PropertyValue z:Id="i293">
+                          <PropertyValue z:Id="i287">
                             <PropertyName>Message</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>errorMessage</_expression>
@@ -2885,7 +2825,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                             <_value i:nil="true" />
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                           </PropertyValue>
-                          <PropertyValue z:Id="i294">
+                          <PropertyValue z:Id="i288">
                             <PropertyName>Source</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>errorSource</_expression>
@@ -2893,7 +2833,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                             <_value i:nil="true" />
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                           </PropertyValue>
-                          <PropertyValue z:Id="i295">
+                          <PropertyValue z:Id="i289">
                             <PropertyName>Exception</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>exc_main</_expression>
@@ -2910,10 +2850,10 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                         <Text></Text>
                         <_activityFullName>BR.Core.Base.Catch</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i296" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i290" i:type="ExecutedStep">
                         <Childs />
                         <Id>8e11c3c2-6e52-4f4e-9eab-9d199d358144</Id>
-                        <Parent z:Ref="i229" />
+                        <Parent z:Ref="i223" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <AutoCloseMode>None</AutoCloseMode>
@@ -2925,7 +2865,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                       </AbstractStep>
                     </Childs>
                     <Id>9a2a7041-fdc8-4a8f-a73b-00a44a88adbb</Id>
-                    <Parent z:Ref="i227" />
+                    <Parent z:Ref="i221" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
                     <AutoCloseMode>None</AutoCloseMode>
@@ -2935,16 +2875,16 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                     <Text>STATE BODY</Text>
                     <_activityFullName>BR.Core.Base.TryCatch</_activityFullName>
                   </AbstractStep>
-                  <AbstractStep z:Id="i297" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i291" i:type="ExecutedStep">
                     <Childs>
-                      <AbstractStep z:Id="i298" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i292" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i299" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i293" i:type="ExecutedStep">
                             <Childs />
                             <Id>a0319334-7d32-4d27-bbbf-a1f184fca1d6</Id>
-                            <Parent z:Ref="i298" />
+                            <Parent z:Ref="i292" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i300">
+                              <PropertyValue z:Id="i294">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>int_consecutiveExceptionCounter + 1</_expression>
@@ -2952,7 +2892,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i301">
+                              <PropertyValue z:Id="i295">
                                 <PropertyName>To</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>int_consecutiveExceptionCounter</_expression>
@@ -2969,12 +2909,12 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                             <Text>+1 последовательное исключение</Text>
                             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
                           </AbstractStep>
-                          <AbstractStep z:Id="i302" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i296" i:type="ExecutedStep">
                             <Childs />
                             <Id>8e4d3f6f-4807-4e7f-a5cb-14ebfb83efc7</Id>
-                            <Parent z:Ref="i298" />
+                            <Parent z:Ref="i292" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i303">
+                              <PropertyValue z:Id="i297">
                                 <PropertyName>FilePath</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>@"FrameworkScripts\KillProcesses.pix"</_expression>
@@ -2982,13 +2922,13 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i304">
+                              <PropertyValue z:Id="i298">
                                 <PropertyName>Parameters</PropertyName>
                                 <_dataType>Value</_dataType>
                                 <_expression i:nil="true" />
                                 <_screenShotBase64 i:nil="true" />
                                 <_value xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d17p1:ArrayOfArgumentItem">
-                                  <d17p1:ArgumentItem z:Id="i305">
+                                  <d17p1:ArgumentItem z:Id="i299">
                                     <d17p1:ArgumentName>list_processesToKill</d17p1:ArgumentName>
                                     <d17p1:Expression>new List&lt;String&gt;{}</d17p1:Expression>
                                     <d17p1:Type>List&lt;System.String&gt;</d17p1:Type>
@@ -3005,12 +2945,12 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                             <Text>Закрыть процессы по умолчанию</Text>
                             <_activityFullName>BR.Core.Base.ExecuteScript</_activityFullName>
                           </AbstractStep>
-                          <AbstractStep z:Id="i306" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i300" i:type="ExecutedStep">
                             <Childs />
                             <Id>eb6bc75d-5c6f-452c-9555-b9de29057e83</Id>
-                            <Parent z:Ref="i298" />
+                            <Parent z:Ref="i292" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i307">
+                              <PropertyValue z:Id="i301">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>2</_expression>
@@ -3018,7 +2958,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i308">
+                              <PropertyValue z:Id="i302">
                                 <PropertyName>To</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>int_state</_expression>
@@ -3037,7 +2977,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                           </AbstractStep>
                         </Childs>
                         <Id>a32a2d1a-93bc-4939-9c4e-867063826c2e</Id>
-                        <Parent z:Ref="i297" />
+                        <Parent z:Ref="i291" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <AutoCloseMode>None</AutoCloseMode>
@@ -3047,14 +2987,14 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                         <Text>Истина - Переход в перезапуск, только в режиме Performer</Text>
                         <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i309" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i303" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i310" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i304" i:type="ExecutedStep">
                             <Childs />
                             <Id>7bcf7d8c-dc8c-42e0-868f-16a49c598616</Id>
-                            <Parent z:Ref="i309" />
+                            <Parent z:Ref="i303" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i311">
+                              <PropertyValue z:Id="i305">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>5</_expression>
@@ -3062,7 +3002,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i312">
+                              <PropertyValue z:Id="i306">
                                 <PropertyName>To</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>int_state</_expression>
@@ -3081,9 +3021,9 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                           </AbstractStep>
                         </Childs>
                         <Id>d1d4f585-3a99-4e93-8297-4bac9e360c1e</Id>
-                        <Parent z:Ref="i297" />
+                        <Parent z:Ref="i291" />
                         <PropertyValues>
-                          <PropertyValue z:Id="i313">
+                          <PropertyValue z:Id="i307">
                             <PropertyName>Condition</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>int_transNumber==int_transCount || bool_usePerformer==false</_expression>
@@ -3100,14 +3040,14 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                         <Text>Иначе если - Количество обрабатываемых транзакций превысило ограничение</Text>
                         <_activityFullName>BR.Core.Base.ElseIf</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i314" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i308" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i315" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i309" i:type="ExecutedStep">
                             <Childs />
                             <Id>a2a24b32-1d0b-4173-a6dd-e7d72522c264</Id>
-                            <Parent z:Ref="i314" />
+                            <Parent z:Ref="i308" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i316">
+                              <PropertyValue z:Id="i310">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>0</_expression>
@@ -3115,7 +3055,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i317">
+                              <PropertyValue z:Id="i311">
                                 <PropertyName>To</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>int_consecutiveExceptionCounter</_expression>
@@ -3132,12 +3072,12 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                             <Text>Сброс счетчика последовательных исключений</Text>
                             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
                           </AbstractStep>
-                          <AbstractStep z:Id="i318" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i312" i:type="ExecutedStep">
                             <Childs />
                             <Id>c483f83c-5739-4bbc-b9c9-e15389fcfcd4</Id>
-                            <Parent z:Ref="i314" />
+                            <Parent z:Ref="i308" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i319">
+                              <PropertyValue z:Id="i313">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>3</_expression>
@@ -3145,7 +3085,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i320">
+                              <PropertyValue z:Id="i314">
                                 <PropertyName>To</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>int_state</_expression>
@@ -3164,7 +3104,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                           </AbstractStep>
                         </Childs>
                         <Id>6299e74a-fb34-4cb3-853a-25665b0c2694</Id>
-                        <Parent z:Ref="i297" />
+                        <Parent z:Ref="i291" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <AutoCloseMode>None</AutoCloseMode>
@@ -3176,9 +3116,9 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                       </AbstractStep>
                     </Childs>
                     <Id>950da97a-48f7-4cc2-8a04-22d21e0a32a0</Id>
-                    <Parent z:Ref="i227" />
+                    <Parent z:Ref="i221" />
                     <PropertyValues>
-                      <PropertyValue z:Id="i321">
+                      <PropertyValue z:Id="i315">
                         <PropertyName>Condition</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>exc_main!=null &amp;&amp; bool_useDispatcher == false</_expression>
@@ -3199,7 +3139,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                 <Id>6d289b45-fbb7-4c96-b487-a4c589e7729c</Id>
                 <Parent z:Ref="i50" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i322">
+                  <PropertyValue z:Id="i316">
                     <PropertyName>Condition</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>int_state == 4</_expression>
@@ -3216,31 +3156,31 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                 <Text>STATE 4: Обработка/создание транзакции</Text>
                 <_activityFullName>BR.Core.Base.ElseIf</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i323" i:type="ExecutedStep">
+              <AbstractStep z:Id="i317" i:type="ExecutedStep">
                 <Childs>
-                  <AbstractStep z:Id="i324" i:type="CommentStep">
+                  <AbstractStep z:Id="i318" i:type="CommentStep">
                     <Childs />
                     <Id>5e32a76e-e8d8-4b93-8253-cb3666213848</Id>
-                    <Parent z:Ref="i323" />
+                    <Parent z:Ref="i317" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
                     <IsCollapsed>false</IsCollapsed>
                     <Text>Опционально - возможно удаление данного условного оператора</Text>
                   </AbstractStep>
-                  <AbstractStep z:Id="i325" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i319" i:type="ExecutedStep">
                     <Childs>
-                      <AbstractStep z:Id="i326" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i320" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i327" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i321" i:type="ExecutedStep">
                             <Childs>
-                              <AbstractStep z:Id="i328" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i322" i:type="ExecutedStep">
                                 <Childs>
-                                  <AbstractStep z:Id="i329" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i323" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>4da737b6-a5d6-4872-b6a6-a2e9d2af6002</Id>
-                                    <Parent z:Ref="i328" />
+                                    <Parent z:Ref="i322" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i330">
+                                      <PropertyValue z:Id="i324">
                                         <PropertyName>FilePath</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>@"TransactionScripts\Finalize.pix"</_expression>
@@ -3248,23 +3188,23 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i331">
+                                      <PropertyValue z:Id="i325">
                                         <PropertyName>Parameters</PropertyName>
                                         <_dataType>Value</_dataType>
                                         <_expression i:nil="true" />
                                         <_screenShotBase64 i:nil="true" />
                                         <_value xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d21p1:ArrayOfArgumentItem">
-                                          <d21p1:ArgumentItem z:Id="i332">
+                                          <d21p1:ArgumentItem z:Id="i326">
                                             <d21p1:ArgumentName>dict_config</d21p1:ArgumentName>
                                             <d21p1:Expression>dict_config</d21p1:Expression>
                                             <d21p1:Type>Dictionary&lt;System.String, System.Object&gt;</d21p1:Type>
                                           </d21p1:ArgumentItem>
-                                          <d21p1:ArgumentItem z:Id="i333">
+                                          <d21p1:ArgumentItem z:Id="i327">
                                             <d21p1:ArgumentName>dict_paths</d21p1:ArgumentName>
                                             <d21p1:Expression>dict_paths</d21p1:Expression>
                                             <d21p1:Type>Dictionary&lt;System.String, System.String&gt;</d21p1:Type>
                                           </d21p1:ArgumentItem>
-                                          <d21p1:ArgumentItem z:Id="i334">
+                                          <d21p1:ArgumentItem z:Id="i328">
                                             <d21p1:ArgumentName>dict_secureData</d21p1:ArgumentName>
                                             <d21p1:Expression>dict_secureData</d21p1:Expression>
                                             <d21p1:Type>Dictionary&lt;System.String, System.Security.SecureString&gt;</d21p1:Type>
@@ -3283,7 +3223,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                   </AbstractStep>
                                 </Childs>
                                 <Id>c29d745d-9193-4c66-b3da-8ac59e5c9ec9</Id>
-                                <Parent z:Ref="i327" />
+                                <Parent z:Ref="i321" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
                                 <AutoCloseMode>None</AutoCloseMode>
@@ -3293,14 +3233,14 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <Text></Text>
                                 <_activityFullName>BR.Core.Base.Try</_activityFullName>
                               </AbstractStep>
-                              <AbstractStep z:Id="i335" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i329" i:type="ExecutedStep">
                                 <Childs>
-                                  <AbstractStep z:Id="i336" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i330" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>8e82aefa-1a51-4507-b0b5-0cf248e935fa</Id>
-                                    <Parent z:Ref="i335" />
+                                    <Parent z:Ref="i329" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i337">
+                                      <PropertyValue z:Id="i331">
                                         <PropertyName>Value</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>errorSource</_expression>
@@ -3308,7 +3248,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i338">
+                                      <PropertyValue z:Id="i332">
                                         <PropertyName>To</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>exc_main.Source</_expression>
@@ -3327,9 +3267,9 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                   </AbstractStep>
                                 </Childs>
                                 <Id>c43fcafc-8254-4f8f-b1c9-b56af2919100</Id>
-                                <Parent z:Ref="i327" />
+                                <Parent z:Ref="i321" />
                                 <PropertyValues>
-                                  <PropertyValue z:Id="i339">
+                                  <PropertyValue z:Id="i333">
                                     <PropertyName>Message</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>errorMessage</_expression>
@@ -3337,7 +3277,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                     <_value i:nil="true" />
                                     <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                   </PropertyValue>
-                                  <PropertyValue z:Id="i340">
+                                  <PropertyValue z:Id="i334">
                                     <PropertyName>Source</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>errorSource</_expression>
@@ -3345,7 +3285,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                     <_value i:nil="true" />
                                     <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                   </PropertyValue>
-                                  <PropertyValue z:Id="i341">
+                                  <PropertyValue z:Id="i335">
                                     <PropertyName>Exception</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>exc_main</_expression>
@@ -3362,10 +3302,10 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <Text></Text>
                                 <_activityFullName>BR.Core.Base.Catch</_activityFullName>
                               </AbstractStep>
-                              <AbstractStep z:Id="i342" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i336" i:type="ExecutedStep">
                                 <Childs />
                                 <Id>520cb68f-ece8-4691-bd20-cfe0f89d1965</Id>
-                                <Parent z:Ref="i327" />
+                                <Parent z:Ref="i321" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
                                 <AutoCloseMode>None</AutoCloseMode>
@@ -3377,7 +3317,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                               </AbstractStep>
                             </Childs>
                             <Id>9b917dc3-a3c7-40d4-b7ff-10fed20ec65c</Id>
-                            <Parent z:Ref="i326" />
+                            <Parent z:Ref="i320" />
                             <PropertyValues />
                             <SelectedOptionId i:nil="true" />
                             <AutoCloseMode>None</AutoCloseMode>
@@ -3389,7 +3329,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                           </AbstractStep>
                         </Childs>
                         <Id>c86cc896-4914-431a-b80c-fba51503908d</Id>
-                        <Parent z:Ref="i325" />
+                        <Parent z:Ref="i319" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <AutoCloseMode>None</AutoCloseMode>
@@ -3399,10 +3339,10 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                         <Text></Text>
                         <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i343" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i337" i:type="ExecutedStep">
                         <Childs />
                         <Id>dd426c56-6234-46d9-b0f7-71096999f7b8</Id>
-                        <Parent z:Ref="i325" />
+                        <Parent z:Ref="i319" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <AutoCloseMode>None</AutoCloseMode>
@@ -3414,9 +3354,9 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                       </AbstractStep>
                     </Childs>
                     <Id>93638d62-ac08-457d-b310-e7769c3fb2f2</Id>
-                    <Parent z:Ref="i323" />
+                    <Parent z:Ref="i317" />
                     <PropertyValues>
-                      <PropertyValue z:Id="i344">
+                      <PropertyValue z:Id="i338">
                         <PropertyName>Condition</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>bool_usePerformer==true &amp;&amp; bool_transactionError==false &amp;&amp; exc_main==null</_expression>
@@ -3433,16 +3373,16 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                     <Text>Выполнение конечных действий, если все транзакции были успешно обработаны в режиме Performer</Text>
                     <_activityFullName>BR.Core.Base.If</_activityFullName>
                   </AbstractStep>
-                  <AbstractStep z:Id="i345" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i339" i:type="ExecutedStep">
                     <Childs>
-                      <AbstractStep z:Id="i346" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i340" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i347" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i341" i:type="ExecutedStep">
                             <Childs />
                             <Id>1e311c12-c8ac-452f-b274-d3f0e95c4a9d</Id>
-                            <Parent z:Ref="i346" />
+                            <Parent z:Ref="i340" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i348">
+                              <PropertyValue z:Id="i342">
                                 <PropertyName>Text</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>"LogStep: Завершение работы робота"</_expression>
@@ -3459,12 +3399,12 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                             <Text>LogStep - Завершение работы робота</Text>
                             <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
                           </AbstractStep>
-                          <AbstractStep z:Id="i349" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i343" i:type="ExecutedStep">
                             <Childs />
                             <Id>02389913-1755-409f-95b4-ffc7675a9cb5</Id>
-                            <Parent z:Ref="i346" />
+                            <Parent z:Ref="i340" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i350">
+                              <PropertyValue z:Id="i344">
                                 <PropertyName>FilePath</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>@"FrameworkScripts\KillProcesses.pix"</_expression>
@@ -3472,13 +3412,13 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i351">
+                              <PropertyValue z:Id="i345">
                                 <PropertyName>Parameters</PropertyName>
                                 <_dataType>Value</_dataType>
                                 <_expression i:nil="true" />
                                 <_screenShotBase64 i:nil="true" />
                                 <_value xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d17p1:ArrayOfArgumentItem">
-                                  <d17p1:ArgumentItem z:Id="i352">
+                                  <d17p1:ArgumentItem z:Id="i346">
                                     <d17p1:ArgumentName>list_processesToKill</d17p1:ArgumentName>
                                     <d17p1:Expression>new List&lt;String&gt;{}</d17p1:Expression>
                                     <d17p1:Type>List&lt;System.String&gt;</d17p1:Type>
@@ -3495,12 +3435,12 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                             <Text>Завершить процессы робота по умолчанию</Text>
                             <_activityFullName>BR.Core.Base.ExecuteScript</_activityFullName>
                           </AbstractStep>
-                          <AbstractStep z:Id="i353" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i347" i:type="ExecutedStep">
                             <Childs />
                             <Id>3a925492-a575-4c95-ab76-aa880d9b9bf5</Id>
-                            <Parent z:Ref="i346" />
+                            <Parent z:Ref="i340" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i354">
+                              <PropertyValue z:Id="i348">
                                 <PropertyName>FilePath</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>dict_paths["TEMPFolder"]</_expression>
@@ -3519,7 +3459,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                           </AbstractStep>
                         </Childs>
                         <Id>0f6647bf-0601-40c7-9bf0-7b9063e25b96</Id>
-                        <Parent z:Ref="i345" />
+                        <Parent z:Ref="i339" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <AutoCloseMode>None</AutoCloseMode>
@@ -3529,14 +3469,14 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                         <Text></Text>
                         <_activityFullName>BR.Core.Base.Try</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i355" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i349" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i356" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i350" i:type="ExecutedStep">
                             <Childs />
                             <Id>063de43d-0460-4af8-8893-fc8399b4d0a1</Id>
-                            <Parent z:Ref="i355" />
+                            <Parent z:Ref="i349" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i357">
+                              <PropertyValue z:Id="i351">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>errorSource</_expression>
@@ -3544,7 +3484,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i358">
+                              <PropertyValue z:Id="i352">
                                 <PropertyName>To</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>exc_main.Source</_expression>
@@ -3563,9 +3503,9 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                           </AbstractStep>
                         </Childs>
                         <Id>02dca429-ac9c-4519-8ff0-76e809334786</Id>
-                        <Parent z:Ref="i345" />
+                        <Parent z:Ref="i339" />
                         <PropertyValues>
-                          <PropertyValue z:Id="i359">
+                          <PropertyValue z:Id="i353">
                             <PropertyName>Message</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>errorMessage</_expression>
@@ -3573,7 +3513,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                             <_value i:nil="true" />
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                           </PropertyValue>
-                          <PropertyValue z:Id="i360">
+                          <PropertyValue z:Id="i354">
                             <PropertyName>Source</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>errorSource</_expression>
@@ -3581,7 +3521,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                             <_value i:nil="true" />
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                           </PropertyValue>
-                          <PropertyValue z:Id="i361">
+                          <PropertyValue z:Id="i355">
                             <PropertyName>Exception</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>exc_main</_expression>
@@ -3598,18 +3538,18 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                         <Text></Text>
                         <_activityFullName>BR.Core.Base.Catch</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i362" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i356" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i363" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i357" i:type="ExecutedStep">
                             <Childs>
-                              <AbstractStep z:Id="i364" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i358" i:type="ExecutedStep">
                                 <Childs>
-                                  <AbstractStep z:Id="i365" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i359" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>b162d2f1-60dc-404d-8b07-f6efe980e73f</Id>
-                                    <Parent z:Ref="i364" />
+                                    <Parent z:Ref="i358" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i366">
+                                      <PropertyValue z:Id="i360">
                                         <PropertyName>Text</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>exc_main.Message.Contains($"{exc_main.GetType()}") ? $"{exc_main.Message}\n{exc_main.Source}" : $"{exc_main.GetType()}: {exc_main.Message}\n{exc_main.Source}"</_expression>
@@ -3617,7 +3557,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i367">
+                                      <PropertyValue z:Id="i361">
                                         <PropertyName>Exception</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>exc_main</_expression>
@@ -3636,7 +3576,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                   </AbstractStep>
                                 </Childs>
                                 <Id>4953780e-0735-4f62-bcf9-abb1143f7ae5</Id>
-                                <Parent z:Ref="i363" />
+                                <Parent z:Ref="i357" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
                                 <AutoCloseMode>None</AutoCloseMode>
@@ -3646,14 +3586,14 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <Text></Text>
                                 <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                               </AbstractStep>
-                              <AbstractStep z:Id="i368" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i362" i:type="ExecutedStep">
                                 <Childs>
-                                  <AbstractStep z:Id="i369" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i363" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>1218d02b-fa7e-4cd5-a7fa-ea10f487ff2b</Id>
-                                    <Parent z:Ref="i368" />
+                                    <Parent z:Ref="i362" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i370">
+                                      <PropertyValue z:Id="i364">
                                         <PropertyName>Level</PropertyName>
                                         <_dataType>Value</_dataType>
                                         <_expression i:nil="true" />
@@ -3661,7 +3601,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                         <_value xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.Core.Base" i:type="d21p1:LogLevel">Warn</_value>
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i371">
+                                      <PropertyValue z:Id="i365">
                                         <PropertyName>Text</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>exc_main.Message.Contains($"{exc_main.GetType()}") ? $"{exc_main.Message}\n{exc_main.Source}" : $"{exc_main.GetType()}: {exc_main.Message}\n{exc_main.Source}"</_expression>
@@ -3680,9 +3620,9 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                   </AbstractStep>
                                 </Childs>
                                 <Id>8fe477f8-e55c-491e-9f61-612078fe3951</Id>
-                                <Parent z:Ref="i363" />
+                                <Parent z:Ref="i357" />
                                 <PropertyValues>
-                                  <PropertyValue z:Id="i372">
+                                  <PropertyValue z:Id="i366">
                                     <PropertyName>Condition</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>exc_main != null</_expression>
@@ -3699,10 +3639,10 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <Text></Text>
                                 <_activityFullName>BR.Core.Base.ElseIf</_activityFullName>
                               </AbstractStep>
-                              <AbstractStep z:Id="i373" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i367" i:type="ExecutedStep">
                                 <Childs />
                                 <Id>2b173f2d-4f63-4434-bcc7-c6e6e12ede90</Id>
-                                <Parent z:Ref="i363" />
+                                <Parent z:Ref="i357" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
                                 <AutoCloseMode>None</AutoCloseMode>
@@ -3714,9 +3654,9 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                               </AbstractStep>
                             </Childs>
                             <Id>d629c374-5130-4930-80d3-60ff6bc4fa8a</Id>
-                            <Parent z:Ref="i362" />
+                            <Parent z:Ref="i356" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i374">
+                              <PropertyValue z:Id="i368">
                                 <PropertyName>Condition</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>exc_main != null &amp;&amp; exc_main.GetType() != new BusinessRuleException().GetType()</_expression>
@@ -3733,12 +3673,12 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                             <Text>Есть системная ошибка?</Text>
                             <_activityFullName>BR.Core.Base.If</_activityFullName>
                           </AbstractStep>
-                          <AbstractStep z:Id="i375" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i369" i:type="ExecutedStep">
                             <Childs />
                             <Id>d97a1437-d1af-45cc-8260-25f6b275c836</Id>
-                            <Parent z:Ref="i362" />
+                            <Parent z:Ref="i356" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i376">
+                              <PropertyValue z:Id="i370">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>true</_expression>
@@ -3746,7 +3686,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i377">
+                              <PropertyValue z:Id="i371">
                                 <PropertyName>To</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>bool_exit</_expression>
@@ -3765,7 +3705,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                           </AbstractStep>
                         </Childs>
                         <Id>cf3314cd-3e49-48e2-bd38-c88dc9f388d0</Id>
-                        <Parent z:Ref="i345" />
+                        <Parent z:Ref="i339" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <AutoCloseMode>None</AutoCloseMode>
@@ -3777,7 +3717,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
                       </AbstractStep>
                     </Childs>
                     <Id>5cddf9a1-f347-484c-af79-d1f861be2958</Id>
-                    <Parent z:Ref="i323" />
+                    <Parent z:Ref="i317" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
                     <AutoCloseMode>None</AutoCloseMode>
@@ -3803,7 +3743,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
             <Id>0c004d7c-5bc9-4073-bbc5-4a5aae58f2a4</Id>
             <Parent z:Ref="i48" />
             <PropertyValues>
-              <PropertyValue z:Id="i378">
+              <PropertyValue z:Id="i372">
                 <PropertyName>Condition</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>int_state == 1</_expression>
@@ -3824,7 +3764,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
         <Id>7aa35ff1-6eb2-48dc-90f4-433027da9947</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i379">
+          <PropertyValue z:Id="i373">
             <PropertyName>Condition</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>!bool_exit</_expression>
@@ -3832,7 +3772,7 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i380">
+          <PropertyValue z:Id="i374">
             <PropertyName>Counter</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression></_expression>
@@ -3869,63 +3809,49 @@ list_queueItemData.All(queueItem =&gt; queueItem.PostponeDate != null) &amp;&amp
     <d2p1:string>PIX.Core.Exceptions</d2p1:string>
   </Namespaces>
   <Params>
-    <Parameter z:Id="i381">
+    <Parameter z:Id="i375">
       <DefaultValueExpression>0</DefaultValueExpression>
       <Description>Количество транзакций, которое должно быть обработано за один запуск. int_transNumber==0 - без ограничений</Description>
       <Name>int_transNumber</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Int32</TypeString>
     </Parameter>
-    <Parameter z:Id="i382">
+    <Parameter z:Id="i376">
       <DefaultValueExpression>false</DefaultValueExpression>
       <Description>bool_isProd==true - робот работает в продуктиве. bool_isProd==false - робот в предпродуктиве или тесте </Description>
       <Name>bool_isProd</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Boolean</TypeString>
     </Parameter>
-    <Parameter z:Id="i383">
+    <Parameter z:Id="i377">
       <DefaultValueExpression>false</DefaultValueExpression>
       <Description>bool_isPredProd==true - робот работает в предпродуктиве. bool_isPredProd==false - робот в продуктиве или тесте.</Description>
       <Name>bool_isPredProd</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Boolean</TypeString>
     </Parameter>
-    <Parameter z:Id="i384">
-      <DefaultValueExpression>@""</DefaultValueExpression>
-      <Description>Входной дополнительный параметр</Description>
-      <Name>str_param1</Name>
-      <RunnerType>None</RunnerType>
-      <TypeString>System.String</TypeString>
-    </Parameter>
-    <Parameter z:Id="i385">
-      <DefaultValueExpression>@""</DefaultValueExpression>
-      <Description>Входной дополнительный параметр 2</Description>
-      <Name>str_param2</Name>
-      <RunnerType>None</RunnerType>
-      <TypeString>System.Object</TypeString>
-    </Parameter>
-    <Parameter z:Id="i386">
+    <Parameter z:Id="i378">
       <DefaultValueExpression>@"SBZ_TestQueue_GenerateYR"</DefaultValueExpression>
       <Description>Название очереди</Description>
       <Name>str_queueName</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i387">
+    <Parameter z:Id="i379">
       <DefaultValueExpression>false</DefaultValueExpression>
       <Description>bool_useDispatcher==true, bool_usePerformer==false - робот работает в режиме создания транзакций в целевую очередь.</Description>
       <Name>bool_useDispatcher</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Boolean</TypeString>
     </Parameter>
-    <Parameter z:Id="i388">
+    <Parameter z:Id="i380">
       <DefaultValueExpression>true</DefaultValueExpression>
       <Description>bool_usePerformer==true, bool_useDispatcher==false - робот работает в режиме обработки транзакций в целевой очереди.</Description>
       <Name>bool_usePerformer</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Boolean</TypeString>
     </Parameter>
-    <Parameter z:Id="i389">
+    <Parameter z:Id="i381">
       <DefaultValueExpression>3</DefaultValueExpression>
       <Description>Макс. кол-во последовательных ошибок. При значении 0 - ограничений нет.</Description>
       <Name>int_maxConsecutiveExceptions</Name>

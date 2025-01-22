@@ -449,19 +449,6 @@
         <Text></Text>
         <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i53" i:type="ExecutedStep">
-        <Childs />
-        <Id>845884c9-288e-430a-80df-41f0a10a3a89</Id>
-        <Parent z:Ref="i2" />
-        <PropertyValues />
-        <SelectedOptionId>0</SelectedOptionId>
-        <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>true</EnableStatus>
-        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-        <RetryCount>-1</RetryCount>
-        <Text></Text>
-        <_activityFullName>BR.Core.Base.Sleep</_activityFullName>
-      </AbstractStep>
     </Childs>
     <Id>191381d3-7e43-433e-8737-e5bc24ef55d4</Id>
     <Parent i:nil="true" />
@@ -477,21 +464,21 @@
   <Name>System1_GetVenderInformation.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params>
-    <Parameter z:Id="i54">
+    <Parameter z:Id="i53">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>dict_config</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</TypeString>
     </Parameter>
-    <Parameter z:Id="i55">
+    <Parameter z:Id="i54">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>out_str_taxID</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i56">
+    <Parameter z:Id="i55">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>in_str_wiid</Name>

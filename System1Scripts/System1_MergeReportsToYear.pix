@@ -65,7 +65,7 @@
           <PropertyValue z:Id="i9">
             <PropertyName>Value</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>dict_config["ReportFolder"].ToString()</_expression>
+            <_expression>dict_paths["ResultsFolder"].ToString()</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -95,7 +95,7 @@
           <PropertyValue z:Id="i12">
             <PropertyName>Value</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>Path.GetFullPath(ReportFolder) +@"\"+ in_str_taxID</_expression>
+            <_expression>Path.GetFullPath(ReportFolder).ToString() +@"\"+ in_str_taxID</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -294,19 +294,6 @@
         <Text></Text>
         <_activityFullName>Activities.Office.Excel.WriteRange</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i32" i:type="ExecutedStep">
-        <Childs />
-        <Id>4a7a5857-317e-4fcb-973f-f7ec3f109c64</Id>
-        <Parent z:Ref="i2" />
-        <PropertyValues />
-        <SelectedOptionId>0</SelectedOptionId>
-        <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>true</EnableStatus>
-        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-        <RetryCount>-1</RetryCount>
-        <Text></Text>
-        <_activityFullName>BR.Core.Base.Sleep</_activityFullName>
-      </AbstractStep>
     </Childs>
     <Id>235fec76-4100-4cde-bde4-51b10d154f8f</Id>
     <Parent i:nil="true" />
@@ -322,24 +309,31 @@
   <Name>System1_MergeReportsToYear.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params>
-    <Parameter z:Id="i33">
+    <Parameter z:Id="i32">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>out_Yreport</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Data.DataTable</TypeString>
     </Parameter>
-    <Parameter z:Id="i34">
+    <Parameter z:Id="i33">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>in_str_taxID</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i35">
+    <Parameter z:Id="i34">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>dict_config</Name>
+      <RunnerType>None</RunnerType>
+      <TypeString>System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</TypeString>
+    </Parameter>
+    <Parameter z:Id="i35">
+      <DefaultValueExpression></DefaultValueExpression>
+      <Description></Description>
+      <Name>dict_paths</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</TypeString>
     </Parameter>

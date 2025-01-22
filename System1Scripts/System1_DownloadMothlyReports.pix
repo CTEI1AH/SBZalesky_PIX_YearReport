@@ -89,7 +89,7 @@
           <PropertyValue z:Id="i12">
             <PropertyName>Value</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>dict_config["ReportFolder"].ToString()</_expression>
+            <_expression>dict_paths["ResultsFolder"].ToString()</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -7229,7 +7229,7 @@
                                       <d13p1:_name>AccessKey</d13p1:_name>
                                     </d13p1:XPathAttribute>
                                     <d13p1:XPathAttribute z:Id="i821">
-                                      <d13p1:IsEnabled>false</d13p1:IsEnabled>
+                                      <d13p1:IsEnabled>true</d13p1:IsEnabled>
                                       <d13p1:IsPositionAttribute>false</d13p1:IsPositionAttribute>
                                       <d13p1:Operator>Equal</d13p1:Operator>
                                       <d13p1:Value>'1'</d13p1:Value>
@@ -7237,7 +7237,7 @@
                                       <d13p1:_name>AutomationId</d13p1:_name>
                                     </d13p1:XPathAttribute>
                                     <d13p1:XPathAttribute z:Id="i822">
-                                      <d13p1:IsEnabled>true</d13p1:IsEnabled>
+                                      <d13p1:IsEnabled>false</d13p1:IsEnabled>
                                       <d13p1:IsPositionAttribute>false</d13p1:IsPositionAttribute>
                                       <d13p1:Operator>Equal</d13p1:Operator>
                                       <d13p1:Value>'Button'</d13p1:Value>
@@ -8535,19 +8535,6 @@
         <Text></Text>
         <_activityFullName>BR.Core.Base.LoopForEach</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i962" i:type="ExecutedStep">
-        <Childs />
-        <Id>89a4c0bf-705d-4dab-a3eb-463764c30acf</Id>
-        <Parent z:Ref="i2" />
-        <PropertyValues />
-        <SelectedOptionId>0</SelectedOptionId>
-        <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>true</EnableStatus>
-        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-        <RetryCount>-1</RetryCount>
-        <Text></Text>
-        <_activityFullName>BR.Core.Base.Sleep</_activityFullName>
-      </AbstractStep>
     </Childs>
     <Id>11a18e38-d779-45d6-9ff4-55a117f9be6d</Id>
     <Parent i:nil="true" />
@@ -8563,19 +8550,26 @@
   <Name>System1_DownloadMothlyReports.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params>
-    <Parameter z:Id="i963">
+    <Parameter z:Id="i962">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>dict_config</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</TypeString>
     </Parameter>
-    <Parameter z:Id="i964">
+    <Parameter z:Id="i963">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>in_str_taxID</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
+    </Parameter>
+    <Parameter z:Id="i964">
+      <DefaultValueExpression></DefaultValueExpression>
+      <Description></Description>
+      <Name>dict_paths</Name>
+      <RunnerType>None</RunnerType>
+      <TypeString>System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</TypeString>
     </Parameter>
   </Params>
   <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
