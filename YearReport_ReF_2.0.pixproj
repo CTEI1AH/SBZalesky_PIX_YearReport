@@ -49,31 +49,27 @@
     </ProjectFileItem>
     <ProjectFileItem z:Id="i13">
       <IsMain>false</IsMain>
-      <Path>Новый скрипт.pix</Path>
+      <Path>System1Scripts\System1_DownloadMothlyReports.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i14">
       <IsMain>false</IsMain>
-      <Path>System1Scripts\System1_DownloadMothlyReports.pix</Path>
+      <Path>System1Scripts\System1_GetVenderInformation.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i15">
       <IsMain>false</IsMain>
-      <Path>System1Scripts\System1_GetVenderInformation.pix</Path>
+      <Path>System1Scripts\System1_MergeReportsToYear.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i16">
       <IsMain>false</IsMain>
-      <Path>System1Scripts\System1_MergeReportsToYear.pix</Path>
-    </ProjectFileItem>
-    <ProjectFileItem z:Id="i17">
-      <IsMain>false</IsMain>
       <Path>System1Scripts\System1_UpdateStatus.pix</Path>
     </ProjectFileItem>
-    <ProjectFileItem z:Id="i18">
+    <ProjectFileItem z:Id="i17">
       <IsMain>false</IsMain>
       <Path>System1Scripts\System1_UploadYearlyReport.pix</Path>
     </ProjectFileItem>
   </Files>
   <MasterUploadId i:nil="true" />
-  <Name>ReFramework_2.0</Name>
+  <Name>YearReport_ReF_2.0</Name>
   <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
     <d2p1:_Build>0</d2p1:_Build>
     <d2p1:_Major>2</d2p1:_Major>
